@@ -1,0 +1,345 @@
+#vendas #acao h1,
+#vantagens h2 {
+    color: #228b22;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 2rem;
+}
+
+#video {
+    width: 100%;
+}
+
+.textoVideo {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+
+.botaoAcao {
+    display: block;
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #FF914D;
+    background-image: url(images/bg01.png);
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#vendas #acao p {
+    margin: 1rem auto;
+}
+
+#autora {
+    background-color: #228b22;
+    height: auto;
+    padding: 3rem;
+    color: #FFF;
+}
+
+#autora h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;    
+}
+
+#autora p {    
+    line-height: 30px;
+    font-size: 1rem;    
+}
+
+#vantagens {
+    padding: 3rem;
+}
+
+#vantagens img {
+    width: 100%;
+    height: 40%;
+}
+
+#e-books {
+    background-color: #228b22;
+    height: auto;
+    padding: 3rem;
+    border-radius: 16px;
+}
+
+.e-booksTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus {
+    background-color: #FFF;
+    width: 500px;
+    height: 400px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus img {
+    width: 300px;
+    height: 350px;
+}
+
+.bonusConteiner {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;    
+}
+
+#oferta {
+    padding: 4rem;
+    border: 3px solid #228b22;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+}
+
+#oferta p {
+    margin-bottom: .5rem;
+}
+
+.ofertaTitulo {
+    padding: 1rem;
+    background-color: #228b22;
+    width: 40%;
+    position: absolute;
+    top: -30px;
+    right: 30%;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.destaque {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.tempo {
+    background-color: gainsboro;
+}
+
+.precoCheio {
+    color: red;
+    text-decoration: line-through;
+    font-weight: 700;
+}
+
+.preco {
+    color: #228b22;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#protegida {
+    width: 50%;
+}
+
+#garantiaCel {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+#garantiaDesktop {
+    display: none;
+}
+
+#calorias form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+    
+    .bonus {
+        background-color: #FFF;        
+    }
+
+    .bonusConteiner {
+        margin: 0;
+    }
+    
+}
+
+/* Laptop */
+@media screen and (min-width: 1096px) and (max-width: 1460px) {
+    
+
+    #garantia img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .botaoAcao {
+        margin: 2rem auto;
+    }
+
+    #autora p {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .ofertaTitulo {
+        margin-left: 4rem;
+    }   
+
+    .textoVideo {
+        color: red;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    
+}
+
+@media screen and (max-width: 736px) {
+    .e-booksTitulo h2 {
+        font-size: 2rem;
+        line-height: 30px;
+        color: #FFF;
+    }
+    
+    #autora {
+        margin-top: 0; 
+        padding: 1rem;       
+    }
+
+    #garantiaDesktop {
+        display: block !important;
+    }
+
+    #garantiaCel {
+        display: none !important;
+    }
+    
+    .textoVideo {
+        margin-top: 1rem;
+    }
+    
+    .botaoAcao {
+        margin: 2rem 0 0 0;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: .5rem;
+    }
+
+    #autora {
+        margin-top: 0;       
+    }
+
+    #autora h2 {
+        font-size: 1.5rem;
+    }       
+
+    #acao {
+        margin-bottom: 2rem;        
+    }
+
+    #acao h1 {
+        font-size: 1.5rem;
+    }
+    
+    #garantiaDesktop {
+        width: 80%;
+        height: 80%;
+        margin: 1rem auto;
+    }
+
+    .bonusConteiner {
+        margin-top: 2rem;
+    }
+
+    .e-booksTitulo {
+        margin: 0;
+    }
+
+    .bonus img {
+        width: 200px;
+        height: 250px;
+    }
+    
+    #e-books {
+        padding: 1rem;
+    }
+
+    #garantiaCel {
+        display: block;
+    }
+
+    #garantiaDesktop {
+        display: none;
+    }
+
+    #garantia p {
+        text-align: center;
+        margin: 2rem 0 0 0;
+    }
+
+    #oferta {
+        padding: 1rem;
+        height: 500px;
+    }
+
+    #oferta .ofertaTitulo {
+        width: 103%;
+        left: -4px;
+        top: -30px;
+    }
+
+    .destaque {
+        font-size: 1.2rem;
+    }
+
+    #protegida {
+        width: 100%;
+        right: 0;
+        margin-top: 1rem;
+    }
+
+    #vendas #acao h1, #vantagens h2 {
+        font-size: 1.5rem;
+    }
+
+    #cabecalho div p {
+        font-size: 1rem;
+    }
+
+    #vendas #acao p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {}
+
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+@media screen and (min-width: 737px) {}
+
+/* Laptop */
+@media screen and (min-width: 1201px) and (max-width: 1460px) {}
+
+/* Wide */
+@media screen and (min-width: 1201px) {}
+
+/* Narrower */
+@media screen and (min-width: 737px) and (max-width: 1000px) {}
+
+/* Off-Canvas Sidebar */
+@media screen and (max-width: 1000px) {}
