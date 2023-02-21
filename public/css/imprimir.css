@@ -1,5 +1,5 @@
 @media print {
-    #cabecalho, #sidebar, #video, .pagination, .stats, .info, #calorias {
+    #cabecalho, #sidebar, #video, .pagination, .stats, .info, #calorias, #receitasInfos, #receitasNutricional, #secaoRecomendados, #rodape {
       display: none;
     }
   }
