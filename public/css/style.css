@@ -348,6 +348,20 @@ input {
     display: none;
 }
 
+.e-booksTitulo h2 {
+    color: #FFF;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+#e-books p {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+}
+
 
 @media screen and (min-width: 737px) {}
 
@@ -715,13 +729,11 @@ input {
         font-size: 2rem;
     }
     
-    #garantia img {height: 350px;}
-    
-    .e-booksTitulo h2 {
-        color: #FFF;
-        font-size: 3rem;
-        margin: 1rem 0;
+    #garantia img {
+        height: 350px;
     }
+    
+    
     
     #calorias form, #caloriasFullPage #formularioCalorias {
         display: none;
@@ -1369,7 +1381,7 @@ input {
 
     #oferta .ofertaTitulo {
         width: 260px;
-        height: 65px;
+        height: 70px;
         left: 6.5px;
         display: flex;
         align-items: center;

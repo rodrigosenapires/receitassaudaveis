@@ -1,8 +1,13 @@
+#vendas p, #vendas li {
+    font-size: 1.3rem;
+}
+
 #vendas #acao h1,
-#vantagens h2 {
+#vantagens h2,
+#provasSociais h2 {
     color: #228b22;
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     line-height: 50px;
@@ -49,12 +54,13 @@
 #autora h2 {
     color: #FFF;
     text-align: center;
-    font-size: 4rem;    
+    font-size: 4rem;
+    margin-bottom: 2rem;    
 }
 
-#autora p {    
+#autora p {
     line-height: 30px;
-    font-size: 1rem;    
+    font-size: 1.3rem;
 }
 
 #vantagens {
@@ -99,7 +105,7 @@
     gap: 2rem;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;    
+    margin-top: 2rem;
 }
 
 #oferta {
@@ -111,7 +117,7 @@
 }
 
 #oferta p {
-    margin-bottom: .5rem;
+    margin: .5rem 0;
 }
 
 .ofertaTitulo {
@@ -166,21 +172,96 @@
     flex-direction: column;
 }
 
+#provasSociais h2 {
+    margin-top: 2rem;
+}
+
+#provasSociais p {
+    margin-bottom: 1rem;
+}
+
+.depoimentos h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+
+#maisRelatos h3.tituloImg {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.depoimentosImg img {
+    width: 250px;
+    height: 250px;
+}
+
+.depoimentosImg {
+    display: flex;
+    gap: 1rem;    
+}
+
+.depoimentos h3:first-child {
+    margin: 2rem 0 1rem 0;
+    text-align: left;
+    color: #FF914D;
+}
+
+.relatos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.relatos img {
+    width: 400px;
+    height: 350px;
+    align-self: center;
+}
+
+.relatos h3 {
+    margin: 2rem 0 0 0;
+    text-align: left;
+    color: #FF914D;
+    font-size: 2rem;
+}
+
+.melhorDietaImg {
+    width: 800px;
+    height: 650px;
+}
+
+.video h3 {
+    font-size: 1.5rem;
+}
+
+.melhorDietaImgCel {
+    display: none;
+}
+
 @media screen and (min-width: 737px) and (max-width: 1200px) {
-    
+
     .bonus {
-        background-color: #FFF;        
+        background-color: #FFF;
     }
 
     .bonusConteiner {
         margin: 0;
     }
-    
+
+    .melhorDietaImg {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* Laptop */
 @media screen and (min-width: 1096px) and (max-width: 1460px) {
-    
+
 
     #garantia img {
         width: 100%;
@@ -198,7 +279,7 @@
 
     .ofertaTitulo {
         margin-left: 4rem;
-    }   
+    }
 
     .textoVideo {
         color: red;
@@ -206,19 +287,42 @@
         text-align: left;
     }
 
-    
+
 }
 
 @media screen and (max-width: 736px) {
-    .e-booksTitulo h2 {
+    div#e-books p {
+        font-size: 1.5rem;
+    }
+
+    .melhorDietaImg {
+        display: none;
+    }    
+
+    .relatos img, .melhorDietaImgCel {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .depoimentosImg {
+        flex-direction: column;
+        align-items: center;
+    }
+    #provasSociais h2 {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    
+    div.e-booksTitulo h2 {
         font-size: 2rem;
         line-height: 30px;
         color: #FFF;
     }
-    
+
     #autora {
-        margin-top: 0; 
-        padding: 1rem;       
+        margin-top: 0;
+        padding: 1rem;
     }
 
     #garantiaDesktop {
@@ -228,11 +332,11 @@
     #garantiaCel {
         display: none !important;
     }
-    
+
     .textoVideo {
         margin-top: 1rem;
     }
-    
+
     .botaoAcao {
         margin: 2rem 0 0 0;
         width: 100%;
@@ -241,21 +345,22 @@
     }
 
     #autora {
-        margin-top: 0;       
+        margin-top: 0;
     }
 
     #autora h2 {
         font-size: 1.5rem;
-    }       
+        margin: 0;
+    }
 
     #acao {
-        margin-bottom: 2rem;        
+        margin-bottom: 2rem;
     }
 
     #acao h1 {
         font-size: 1.5rem;
     }
-    
+
     #garantiaDesktop {
         width: 80%;
         height: 80%;
@@ -274,7 +379,7 @@
         width: 200px;
         height: 250px;
     }
-    
+
     #e-books {
         padding: 1rem;
     }
@@ -313,8 +418,10 @@
         margin-top: 1rem;
     }
 
-    #vendas #acao h1, #vantagens h2 {
+    #vendas #acao h1,
+    #vantagens h2 {
         font-size: 1.5rem;
+        line-height: 30px;
     }
 
     #cabecalho div p {
