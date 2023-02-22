@@ -6,10 +6,10 @@
     padding: 1rem;
 }
 
-#rodape a {
+#rodape a, #rodape  p {
     color: #FFF;
     text-decoration: none;
-}
+}   
 
 #rodape div ul {
     list-style: none;

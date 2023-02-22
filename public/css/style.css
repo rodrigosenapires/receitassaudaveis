@@ -9,6 +9,8 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+
+
 .month span {
     display: none;
 }
@@ -723,8 +725,9 @@ input {
     }
     
     html body p {
-        font-size: 22px;
+        font-size: 22px;     
     }
+
     .col-12 h2 {
         font-size: 2rem;
     }
