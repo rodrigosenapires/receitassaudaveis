@@ -9,7 +9,18 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#homeIntroducao h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #228B22;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
 
+#homeIntroducao p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
 
 .month span {
     display: none;
