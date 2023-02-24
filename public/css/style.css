@@ -9,8 +9,44 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#sobreNos h1 {
+    font-size: 3rem;
+    color: #FF914D;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#sobreNos .e-booksCapas div p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#sobreNos .e-booksCapas div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobreNos .e-booksCapas div img {
+    width: 250px;
+    height: 300px;
+}
+
+#sobreNos .e-booksCapas {
+    align-items: center;
+    justify-content: center;
+}
+
+.receita header h1 {
+    color: #FF914D;
+    font-size: 3.5rem;
+    margin-top: 4rem;
+}
+
 #homeIntroducao h1#tituloIndex {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     text-align: center;
     font-size: 3rem;
     color: #228B22;
@@ -35,7 +71,7 @@
 }
 
 #receitasNutricional p:last-child {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -109,7 +145,7 @@
     border-radius: 8px;
     box-sizing: border-box;
     overflow: hidden;
-    margin-top: 1rem;
+    margin: 1rem auto;
     opacity: .6;
     font-weight: 700;
 }
@@ -968,6 +1004,7 @@ input {
         font-size: 16px;
         text-align: left;
         background-image: url("../images/bg01.png");
+        
     }
 
     #caloriasFullPage #formularioCalorias select {

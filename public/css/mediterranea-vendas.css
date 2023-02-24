@@ -1,3 +1,6 @@
+#mediterranea h4 {
+    font-size: 1rem;
+}
 #vendas p, #vendas li {
     font-size: 1.3rem;
 }
@@ -49,6 +52,8 @@
     height: auto;
     padding: 3rem;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
 }
 
 #autora h2 {
@@ -61,6 +66,12 @@
 #autora p {
     line-height: 30px;
     font-size: 1.3rem;
+}
+
+#autora a {        
+    margin: 2rem auto;
+    color: #FFF;
+    font-size: 22px;
 }
 
 #vantagens {
