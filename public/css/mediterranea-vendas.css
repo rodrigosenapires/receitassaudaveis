@@ -6,9 +6,20 @@
     font-size: 1.3rem;
 }
 
+#menuLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menuLogo img {
+    width: 48px;
+    height: 48px;
+}
+
 #vendas #acao h1,
 #vantagens h2,
-#provasSociais h2 {
+#provasSociais h2, #conclusao h2 {
     color: #228b22;
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
@@ -49,6 +60,9 @@
 }
 
 #autora {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     background-color: #228b22;
     height: auto;
     padding: 3rem;
@@ -61,12 +75,18 @@
     color: #FFF;
     text-align: center;
     font-size: 4rem;
-    margin-bottom: 2rem;    
+    margin-bottom: 1rem;
+}
+
+#autora h3 {
+    color: #FFF;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 #autora p {
     line-height: 30px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #autora a {        
@@ -206,6 +226,12 @@
     color: black;
 }
 
+.depoimentos, .relatos {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
 .depoimentosImg img {
     width: 250px;
     height: 250px;
@@ -315,7 +341,7 @@
         width: 100%;
         height: auto;
         display: block;
-    }
+    }   
 
     .depoimentosImg {
         flex-direction: column;
