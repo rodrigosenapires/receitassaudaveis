@@ -9,6 +9,11 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#midia, #acao, #vantagens, #garantia, .secaoDepoimentos {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
 .indexContainer {
     margin-left: 10rem !important;
@@ -21,7 +26,9 @@
 
 .posicaoFixa #calorias {
     position: fixed;
-    right: 0;    
+    right: 0;   
+    background-color: #FF914D;
+    background-image: url(../images/bg01.png); 
 }
 
 .paginaConstrucao {
