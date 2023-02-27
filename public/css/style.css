@@ -9,6 +9,20 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+aside {
+    background-color: #FF914D;
+    background-image: url(../images/bg01.png);
+}
+
+.indexContainer {
+    margin-left: 10rem !important;
+    box-shadow: none !important;
+}
+
+.sidebarContainer .posicaoFixa {
+    position: fixed;
+}
+
 .paginaConstrucao {
     display: flex;
     justify-content: center;
@@ -19,7 +33,7 @@
 
 #nav ul li {
     display: flex;
-    align-items: center;      
+    align-items: center;
 }
 
 #nav ul li i {
@@ -53,7 +67,7 @@
     margin-bottom: 1rem;
 }
 
-#garantia p {        
+#garantia p {
     color: #228B22;
     font-size: 1.5rem;
     font-weight: 700;
@@ -105,7 +119,7 @@
     font-weight: 700;
 }
 
-#homeIntroducaoOutras h1{
+#homeIntroducaoOutras h1 {
     text-align: center;
     font-size: 3rem;
     color: #228B22;
@@ -236,11 +250,15 @@
 #calorias form {
     background-color: #FF914D;
     padding: 20px;
-    box-shadow: 0px 0px 10px 0px #333;
     color: #333;
     font-size: 16px;
     text-align: left;
     background-image: url("../images/bg01.png");
+    border: 1px solid #228B22;    
+}
+
+#imc form {
+    border-bottom: 0;
 }
 
 #calorias form input[type="submit"],
@@ -259,7 +277,7 @@
 
 #imc,
 #calorias {
-    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 #calorias label {
@@ -644,7 +662,7 @@ input {
         display: none;
     }
 
-    #autora {        
+    #autora {
         text-align: center;
         margin-top: 5rem;
     }
@@ -657,8 +675,8 @@ input {
 
     #autora h2 {
         line-height: 50px;
-    }    
-    
+    }
+
     #botaoAcao {
         width: 100%;
     }
@@ -671,12 +689,12 @@ input {
 
     .bonusConteiner {
         flex-direction: column;
-    }  
+    }
 
     .imgDesktop {
         display: block;
         height: 400px !important;
-    }   
+    }
 
     #oferta .ofertaTitulo {
         width: 260px;
@@ -712,7 +730,7 @@ input {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;        
+        justify-content: center;
     }
 
     #formulario form label input {
@@ -740,11 +758,11 @@ input {
 
     .capaIpad {
         display: block;
-    }    
+    }
 
     #e-books .bonusConteiner {
         margin: 1rem 0 0 0;
-    }  
+    }
 
     .ofertaTitulo {
         left: 228px;
@@ -787,46 +805,48 @@ input {
 @media screen and (min-width: 737px) {}
 
 /* Laptop */
-@media screen and (min-width: 1202px) and (max-width: 1460px) {  
+@media screen and (min-width: 1202px) and (max-width: 1460px) {
     #mediterranea h4 {
         font-size: 22px;
     }
 
-    #sidebar a, #sidebar h2{
+    #sidebar a,
+    #sidebar h2 {
         font-size: 1.2rem;
         text-decoration: none;
     }
-    
+
     div#icones {
         border: none;
     }
-    
+
     #nav li a {
         font-size: 1.2rem;
     }
-    
+
     div#sidebar {
         width: 20rem;
     }
-    
+
     html body p {
-        font-size: 22px;     
+        font-size: 22px;
     }
 
     .col-12 h2 {
         font-size: 2rem;
     }
-    
+
     #garantia img {
         height: 350px;
     }
-    
-    
-    
-    #calorias form, #caloriasFullPage #formularioCalorias {
+
+
+
+    #calorias form,
+    #caloriasFullPage #formularioCalorias {
         display: none;
     }
-    
+
     #icones {
         display: flex;
         gap: 1rem;
@@ -1029,12 +1049,11 @@ input {
     #caloriasFullPage #formularioCalorias {
         background-color: #FF914D;
         padding: 20px;
-        box-shadow: 0px 0px 10px 0px #333;
         color: #333;
         font-size: 16px;
         text-align: left;
         background-image: url("../images/bg01.png");
-        
+
     }
 
     #caloriasFullPage #formularioCalorias select {
@@ -1060,7 +1079,7 @@ input {
 
     #imc,
     #calorias {
-        margin-top: .5rem;
+        margin-bottom: .5rem;
 
     }
 
@@ -1081,7 +1100,7 @@ input {
 
     #mediterranea h1 {
         margin-bottom: 2rem;
-    }          
+    }
 
 }
 
@@ -1418,14 +1437,14 @@ input {
 
     .e-booksTitulo {
         text-align: center;
-    }       
+    }
 
-    #vantagensCel {        
-        flex-direction: column;       
+    #vantagensCel {
+        flex-direction: column;
     }
 
     #vantagens img {
-        width: 70%;       
+        width: 70%;
     }
 
     #vantagens {
