@@ -134,6 +134,7 @@
 
 .bonusConteiner {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
     align-items: center;
@@ -188,15 +189,6 @@
 
 #protegida {
     width: 50%;
-}
-
-#garantiaCel {
-    width: 100%;
-    margin: 4rem 0;
-}
-
-#garantiaDesktop {
-    display: none;
 }
 
 #calorias form {
@@ -267,6 +259,12 @@
     font-size: 2rem;
 }
 
+#melhorDieta h3{
+    font-size: 2rem;
+    margin: 4rem 0 1rem 0;
+    text-align: center;
+}
+
 .melhorDietaImg {
     width: 800px;
     height: 650px;
@@ -278,6 +276,11 @@
 
 .melhorDietaImgCel {
     display: none;
+}
+
+
+.video h3 {
+    margin-top: 4rem;
 }
 
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -301,10 +304,7 @@
 @media screen and (min-width: 1096px) and (max-width: 1460px) {
 
 
-    #garantia img {
-        width: 100%;
-        height: 250px;
-    }
+  
 
     .botaoAcao {
         margin: 2rem auto;
@@ -361,15 +361,8 @@
     #autora {
         margin-top: 0;
         padding: 1rem;
-    }
-
-    #garantiaDesktop {
-        display: block !important;
-    }
-
-    #garantiaCel {
-        display: none !important;
-    }
+    }  
+    
 
     .textoVideo {
         margin-top: 1rem;
@@ -399,11 +392,7 @@
         font-size: 1.5rem;
     }
 
-    #garantiaDesktop {
-        width: 80%;
-        height: 80%;
-        margin: 1rem auto;
-    }
+   
 
     .bonusConteiner {
         margin-top: 2rem;
@@ -420,15 +409,7 @@
 
     #e-books {
         padding: 1rem;
-    }
-
-    #garantiaCel {
-        display: block;
-    }
-
-    #garantiaDesktop {
-        display: none;
-    }
+    } 
 
     #garantia p {
         text-align: center;

@@ -9,6 +9,41 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#vantagensCel {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#vantagensCel img {
+    width: 250px;
+    height: 200px;
+}
+
+#garantia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 4rem .5rem;
+}
+
+#garantia img {
+    width: 350px;
+    height: 300px;
+    
+}
+
+#garantia p {        
+    color: #228B22;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
 #sobreNos h1 {
     font-size: 3rem;
     color: #FF914D;
@@ -412,11 +447,12 @@ input {
 }
 
 #e-books p {
-    margin: 1rem 0;
+    margin: 2rem 0 0 0;
     font-size: 2rem;
     color: #FFF;
     text-align: center;
     font-weight: 700;
+    line-height: 35px;
 }
 
 
@@ -618,31 +654,12 @@ input {
 
     .bonusConteiner {
         flex-direction: column;
-    }
-
-    #garantiaCel {
-        display: none;
-    }
-
-    #vantagensCel {
-        display: none;
-    }
+    }  
 
     .imgDesktop {
         display: block;
         height: 400px !important;
-    }
-
-   
-    #garantia p {
-        display: none;
-    }
-
-    #garantiaDesktop {
-        margin-top: 25rem;
-        margin-left: 13rem;
-
-    }
+    }   
 
     #oferta .ofertaTitulo {
         width: 260px;
@@ -710,11 +727,7 @@ input {
 
     #e-books .bonusConteiner {
         margin: 1rem 0 0 0;
-    }
-
-    #garantiaCel {
-        display: block;
-    }
+    }  
 
     .ofertaTitulo {
         left: 228px;
@@ -1051,23 +1064,7 @@ input {
 
     #mediterranea h1 {
         margin-bottom: 2rem;
-    }
-
-    #vantagensCel {
-        display: none;
-    }
-
-    .garantiaDesktop {
-        display: none;
-    }
-
-    #garantia p {
-        display: none;
-    }
-
-    #garantiaDesktop {
-        display: none;
-    }
+    }          
 
 }
 
@@ -1404,30 +1401,10 @@ input {
 
     .e-booksTitulo {
         text-align: center;
-    }
+    }       
 
-    #garantiaCel {
-        display: none;
-    }
-
-    #garantia {
-        margin: 2rem 0 4rem .5rem;
-    }
-
-    #garantia p {
-        display: block;
-        color: #228B22;
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 30px;
-        text-align: center;
-    }
-
-    #vantagensCel {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #vantagensCel {        
+        flex-direction: column;       
     }
 
     #vantagens img {
