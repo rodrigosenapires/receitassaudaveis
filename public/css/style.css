@@ -9,6 +9,14 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+.paginaConstrucao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
 #nav ul li {
     display: flex;
     align-items: center;      
