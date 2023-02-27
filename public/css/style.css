@@ -21,9 +21,7 @@
 
 .posicaoFixa #calorias {
     position: fixed;
-    right: 0;
-    background-color: #FF914D;
-    background-image: url(../images/bg01.png);
+    right: 0;    
 }
 
 .paginaConstrucao {
