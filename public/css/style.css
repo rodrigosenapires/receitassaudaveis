@@ -9,6 +9,15 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#nav ul li {
+    display: flex;
+    align-items: center;      
+}
+
+#nav ul li i {
+    color: #FFF;
+}
+
 #vantagensCel {
     display: flex;
     gap: 1rem;
@@ -18,8 +27,8 @@
 }
 
 #vantagensCel img {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
 }
 
 #garantia {
@@ -31,9 +40,9 @@
 }
 
 #garantia img {
-    width: 350px;
-    height: 300px;
-    
+    width: 250px;
+    height: 225px;
+    margin-bottom: 1rem;
 }
 
 #garantia p {        
@@ -448,7 +457,7 @@ input {
 
 #e-books p {
     margin: 2rem 0 0 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #FFF;
     text-align: center;
     font-weight: 700;
