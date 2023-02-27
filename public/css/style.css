@@ -9,10 +9,6 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
-aside {
-    background-color: #FF914D;
-    background-image: url(../images/bg01.png);
-}
 
 .indexContainer {
     margin-left: 10rem !important;
@@ -21,6 +17,13 @@ aside {
 
 .sidebarContainer .posicaoFixa {
     position: fixed;
+}
+
+.posicaoFixa #calorias {
+    position: fixed;
+    right: 0;
+    background-color: #FF914D;
+    background-image: url(../images/bg01.png);
 }
 
 .paginaConstrucao {

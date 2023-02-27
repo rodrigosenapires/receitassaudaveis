@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://www.receitassaudaveis.site/public/css/main.css">
+	<link rel="stylesheet" href="./public/css/main.css">
 	<title>Receitas Saudáveis</title>
 </head>
 
@@ -31,22 +31,7 @@
 							<img src="https://www.receitassaudaveis.site/public/images/logo.png"
 								alt="Imagem da Logo do site receitassaudaveis.site">
 							<p>Método de Emagrecimento Med-Slim</p>
-						</div>
-						<div id="cabecalhoIcones">
-
-							<a href="https://www.receitassaudaveis.site/blog.index.html" class="home">
-								<i class="fa-solid fa-book-open"></i>
-								<p>Receitas</p>
-							</a>
-							<a href="https://www.receitassaudaveis.site/index.html" class="home">
-								<i class="fa-solid fa-dumbbell"></i>
-								<p>Treinos</p>
-							</a>
-							<a href="https://www.receitassaudaveis.site/index.html" class="home">
-								<i class="fa-solid fa-hand-holding-medical"></i>
-								<p>Dicas</p>
-							</a>
-						</div>
+						</div>						
 					</div>
 				</header>
 				<section id="vendas">
@@ -430,74 +415,75 @@
 		</div>
 	</div>
 
-	<aside>
-		<section id="calorias" class="elemento-fixo">
-			<form id="formularioCalorias">
-				<h2>Calculadora de Calorias</h2>
-				<p>
-					<label for="idade">Idade:</label>
-					<input type="number" id="idade" name="idade">
-				</p>
-				<p>
-					<label for="peso">Peso (em kg):</label>
-					<input type="number" id="peso" name="peso">
-				</p>
-				<p>
-					<label for="altura">Altura (em cm):</label>
-					<input type="number" id="altura" name="altura">
-				</p>
-				<p>
-					<label for="gender">Gênero:</label>
-					<select id="gender" name="gender">
-						<option value="m">Masculino</option>
-						<option value="f">Feminino</option>
-					</select>
-				</p>
-				<p>
-					<label for="atividade">Nível de Atividade Física:</label>
-					<select id="atividade" name="atividade">
-						<option value="1.2">Sedentário</option>
-						<option value="1.375">Levemente Ativo</option>
-						<option value="1.55">Moderadamente Ativo</option>
-						<option value="1.725">Altamente Ativo</option>
-						<option value="1.9">Extremamente Ativo</option>
-					</select>
-				</p>
-				<p>
-					<label for="objetivo">Objetivo:</label>
-					<select id="objetivo" name="objetivo">
-						<option value="manter">Manter o peso</option>
-						<option value="perder">Perder peso</option>
-						<option value="ganhar">Ganhar peso</option>
-					</select>
-				</p>
-				<p>
-					<input type="submit" value="Calcular">
-				</p>
-				<div id="calculadoraVisor">
-				</div>
-			</form>
-
-			<div id="imc">
-				<form>
-					<h2>Calculadora de IMC</h2>
-					<div>
-						<label for="weight">Peso (kg):</label>
-						<input type="number" id="weight" name="weight" required>
-					</div>
-					<div>
-						<label for="height">Altura (cm):</label>
-						<input type="number" id="height" name="height" required>
-					</div>
-					<input type="button" value="Calcular IMC" onclick="calculateBMI()">
-					<div id="imcVisor">
-
+	<div class="posicaoFixa">
+		<aside>
+			<section id="calorias">
+				<form id="formularioCalorias">
+					<h2>Calculadora de Calorias</h2>
+					<p>
+						<label for="idade">Idade:</label>
+						<input type="number" id="idade" name="idade">
+					</p>
+					<p>
+						<label for="peso">Peso (em kg):</label>
+						<input type="number" id="peso" name="peso">
+					</p>
+					<p>
+						<label for="altura">Altura (em cm):</label>
+						<input type="number" id="altura" name="altura">
+					</p>
+					<p>
+						<label for="gender">Gênero:</label>
+						<select id="gender" name="gender">
+							<option value="m">Masculino</option>
+							<option value="f">Feminino</option>
+						</select>
+					</p>
+					<p>
+						<label for="atividade">Nível de Atividade Física:</label>
+						<select id="atividade" name="atividade">
+							<option value="1.2">Sedentário</option>
+							<option value="1.375">Levemente Ativo</option>
+							<option value="1.55">Moderadamente Ativo</option>
+							<option value="1.725">Altamente Ativo</option>
+							<option value="1.9">Extremamente Ativo</option>
+						</select>
+					</p>
+					<p>
+						<label for="objetivo">Objetivo:</label>
+						<select id="objetivo" name="objetivo">
+							<option value="manter">Manter o peso</option>
+							<option value="perder">Perder peso</option>
+							<option value="ganhar">Ganhar peso</option>
+						</select>
+					</p>
+					<p>
+						<input type="submit" value="Calcular">
+					</p>
+					<div id="calculadoraVisor">
 					</div>
 				</form>
-			</div>
-		</section>
-	</aside>
 
+				<div id="imc">
+					<form>
+						<h2>Calculadora de IMC</h2>
+						<div>
+							<label for="weight">Peso (kg):</label>
+							<input type="number" id="weight" name="weight" required>
+						</div>
+						<div>
+							<label for="height">Altura (cm):</label>
+							<input type="number" id="height" name="height" required>
+						</div>
+						<input type="button" value="Calcular IMC" onclick="calculateBMI()">
+						<div id="imcVisor">
+
+						</div>
+					</form>
+				</div>
+			</section>
+		</aside>
+	</div>
 	<!-- Sidebar -->
 	<div id="sidebar" class="sidebarContainer">
 		<div class="posicaoFixa">
