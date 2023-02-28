@@ -2756,9 +2756,10 @@ ol li {
 	}
 
 	/* Content */
-	#content {
+	#content.indexContainer {
 		padding: 1rem 5rem 2rem 5rem;
-		margin-left: 9rem;
+		margin-left: 10rem;
+		box-shadow: none;
 	}
 
 }
