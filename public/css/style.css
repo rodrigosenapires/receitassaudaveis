@@ -32,6 +32,12 @@
     position: fixed;
 }
 
+.sidebarContainer {
+    position: fixed;
+    background-color: #228B22;
+    height: 100%;
+}
+
 .posicaoFixa #calorias {
     position: fixed;
     right: 0;   
@@ -511,6 +517,11 @@ input {
     #calorias {
         display: none;
     }
+
+    #nav .liCalculadora {
+        display: flex;
+    }
+
 }
 
 @media screen and (min-width: 737px) {}
@@ -833,7 +844,7 @@ input {
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
 
     #content.indexContainer {        
-        margin-left: 2rem;
+        margin-left: 20rem;
         
     }
 
@@ -852,7 +863,7 @@ input {
     }
 
     #nav li a {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     div#sidebar {

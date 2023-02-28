@@ -1242,7 +1242,7 @@ dl {
 	/* Content */
 	div#content.indexContainer {		
 		padding: 0;
-		margin: 0;
+		margin: 1rem 0 0 16rem;
 	}	
 
 }
@@ -1251,7 +1251,7 @@ dl {
 	/* Content */
 	div#content.indexContainer {		
 		padding: 20px;	
-		margin: 0;	
+		margin: 0 0 10rem 0;	
 	}
 }
 
@@ -2450,7 +2450,7 @@ ol li {
 
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 14rem;
+	margin-left: 20rem;
 	box-shadow: none;
 }
 
