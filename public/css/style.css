@@ -9,6 +9,10 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+.box.post .info {
+    display: none;
+}
+
 #nav .liCalculadora {
     display: none;
 }
