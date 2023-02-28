@@ -81,7 +81,7 @@
 
 #garantia p {
     color: #228B22;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 30px;
     text-align: center;
@@ -496,7 +496,7 @@ input {
 
 #e-books p {
     margin: 2rem 0 0 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #FFF;
     text-align: center;
     font-weight: 700;
@@ -508,6 +508,14 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
+
+    .botaoAcao {
+        margin: 4rem auto;
+    }
+
+    #nav .liCalculadora {
+        display: flex;
+    }
 
     #content .inner:first-child {
         width: 730px;
@@ -682,7 +690,7 @@ input {
 
     #autora p {
         margin: 1rem 0 0 0;
-        font-size: 2rem;
+        font-size: 1rem;
         line-height: 40px;
     }
 
@@ -819,6 +827,12 @@ input {
 
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
+
+    #content.indexContainer {        
+        margin-left: 5rem;
+        
+    }
+
     #mediterranea h4 {
         font-size: 22px;
     }
@@ -850,7 +864,7 @@ input {
     }
 
     #garantia img {
-        height: 350px;
+        height: 250px;
     }
 
 

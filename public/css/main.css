@@ -2839,13 +2839,10 @@ ol li {
 	}
 
 	/* Content */
-
-	#content {
+	#content.indexContainer {
 		padding: .5rem 3em 6em 3em;
+		margin-left: 0;
 	}
-
-	
-	
 	
 }
 
