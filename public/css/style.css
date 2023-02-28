@@ -9,6 +9,10 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#nav .liCalculadora {
+    display: none;
+}
+
 #logo .botaoIndex {
     display: none;
 }
@@ -1246,7 +1250,11 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {    
+@media screen and (max-width: 736px) {  
+    
+    #nav .liCalculadora {
+        display: flex;
+    }
     
     #e-bookGratis a.botaoBaixarGratis {
         margin-top: 1rem;
