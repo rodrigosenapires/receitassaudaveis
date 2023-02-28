@@ -2760,14 +2760,7 @@ ol li {
 		width: 1.5em;
 		text-align: center;
 		opacity: 0.35;
-	}
-
-	/* Content */
-	#content.indexContainer {
-		padding: 1rem 5rem 2rem 5rem;
-		margin-left: 7rem;
-		
-	}
+	}	
 
 }
 
