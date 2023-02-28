@@ -2450,7 +2450,7 @@ ol li {
 
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 20rem;
+	margin-left: 50vh;
 	box-shadow: none;
 }
 
@@ -3042,8 +3042,7 @@ ol li {
 	}
 
 	/* Content */
-	#content.indexContainer {
-		
+	#content.indexContainer {		
 		padding: 3em 20px 20px;
 		margin: 50px 0 0 2rem;
 	}
