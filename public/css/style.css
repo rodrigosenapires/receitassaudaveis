@@ -269,6 +269,10 @@
     border: 1px solid #228B22;    
 }
 
+#imc form {
+    border-bottom: 0;
+}
+
 #calorias form input[type="submit"],
 #imc form input[type="button"] {
     display: flex;
