@@ -446,7 +446,7 @@
 
     #oferta {
         padding: 1rem;
-        height: 500px;
+        height: auto;
     }
 
     #oferta .ofertaTitulo {

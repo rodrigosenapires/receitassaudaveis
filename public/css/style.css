@@ -1480,18 +1480,16 @@ input {
 
     #oferta .ofertaTitulo {
         width: 100%;
-        height: 70px;
-      
+        height: 70px;      
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     #protegida {
-        width: 94%;
-        text-align: center;
-        position: absolute;
-        right: 12px;
+        width: 100%;
+        text-align: center;      
+        
     }
 
     .e-booksTitulo {
