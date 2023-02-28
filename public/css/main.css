@@ -3092,6 +3092,8 @@ ol li {
 
 	#titleBar {
 		display: block;
+		background-color: #228B22;
+		background-image: none;
 	}
 
 	#sidebar {
