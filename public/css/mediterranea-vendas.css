@@ -363,9 +363,10 @@
     }    
 
     .relatos img, .melhorDietaImgCel {
-        width: 100%;
-        height: auto;
+        width: 250px;
+        height: 300px;        
         display: block;
+        margin: 0 auto;
     }   
 
     .depoimentosImg {
