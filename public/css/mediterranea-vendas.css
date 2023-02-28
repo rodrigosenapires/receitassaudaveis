@@ -1,3 +1,7 @@
+#oferta .ofertaTitulo {
+    width: 100%;
+}
+
 #mediterranea h4 {
     font-size: 1rem;
 }
@@ -165,10 +169,7 @@
 .ofertaTitulo {
     padding: 1rem;
     background-color: #228b22;
-    width: 40%;
-    position: absolute;
-    top: -30px;
-    right: 30%;
+    width: 40%;   
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 700;
@@ -449,9 +450,8 @@
     }
 
     #oferta .ofertaTitulo {
-        width: 103%;
-        left: -4px;
-        top: -30px;
+        width: 100%;
+       
     }
 
     .destaque {
