@@ -1246,8 +1246,7 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {
-    
+@media screen and (max-width: 736px) {    
     
     #e-bookGratis a.botaoBaixarGratis {
         margin-top: 1rem;
