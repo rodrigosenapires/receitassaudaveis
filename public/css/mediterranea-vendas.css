@@ -3,7 +3,7 @@
 }
     
 #vendas p, #vendas li {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 #menuLogo {
@@ -88,11 +88,13 @@
     color: #FFF;
     font-size: 1.5rem;
     margin-bottom: .5rem;
+    text-align: left;
 }
 
 #autora p {
     line-height: 30px;
     font-size: 1rem;
+    text-align: left;
 }
 
 #autora a {        
@@ -271,9 +273,9 @@
 }
 
 #melhorDieta h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1rem 0 .5rem 0;    
-    line-height: 40px;
+    line-height: 25px;
 }
 
 .melhorDietaImg {
@@ -353,7 +355,7 @@
     }
 
     div#e-books p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .melhorDietaImg {

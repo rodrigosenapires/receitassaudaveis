@@ -3027,11 +3027,10 @@ ol li {
 	}
 
 	/* Content */
-
-	#content {
+	#content.indexContainer {
 		margin-top: 44px;
 		padding: 3em 20px 20px;
-	}
+	}	
 
 	/* Sidebar */
 
