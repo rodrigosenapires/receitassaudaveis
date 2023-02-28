@@ -2427,6 +2427,12 @@ ol li {
 
 /* Content */
 
+#content.indexContainer {
+	padding: 1rem 5rem 2rem 5rem;
+	margin-left: 10rem;
+	box-shadow: none;
+}
+
 #content {
 	position: relative;
 	background-color: #fff;
@@ -2439,6 +2445,7 @@ ol li {
 	-webkit-flex-shrink: 1;
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
+	
 }
 
 #content>.inner {
@@ -2758,8 +2765,8 @@ ol li {
 	/* Content */
 	#content.indexContainer {
 		padding: 1rem 5rem 2rem 5rem;
-		margin-left: 10rem;
-		box-shadow: none;
+		margin-left: 7rem;
+		
 	}
 
 }
