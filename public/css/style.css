@@ -9,7 +9,7 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
-.botaoIndex {
+#logo .botaoIndex {
     display: none;
 }
 
@@ -1318,7 +1318,7 @@ input {
         margin: 1rem 0;
         justify-content: space-around;
         cursor: pointer;
-        border-bottom: 1px solid #FFF;
+       
     }
 
     #icones a {
