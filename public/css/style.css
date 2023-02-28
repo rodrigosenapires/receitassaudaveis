@@ -129,8 +129,8 @@
 
 .receita header h1 {
     color: #FF914D;
-    font-size: 3.5rem;
-    margin-top: 4rem;
+    font-size: 2.5rem;
+    
 }
 
 #homeIntroducao h1#tituloIndex {
@@ -164,7 +164,7 @@
 }
 
 .receitasArtigos h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 40px;
 }
 
