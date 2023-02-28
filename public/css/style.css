@@ -1242,6 +1242,10 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+    .indexContainer {
+        margin-left: 0 !important;
+    }
+
     #e-bookGratis a.botaoBaixarGratis {
         margin-top: 1rem;
     }
@@ -1449,11 +1453,12 @@ input {
     }
 
     #vantagensCel {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     #vantagens img {
-        width: 70%;
+        width: 150px;
+        height: 130px;
     }
 
     #vantagens {
@@ -1463,7 +1468,8 @@ input {
     #oferta .ofertaTitulo {
         width: 260px;
         height: 70px;
-        left: 6.5px;
+        left: 70px;
+        top: -60px;
         display: flex;
         align-items: center;
         justify-content: center;
