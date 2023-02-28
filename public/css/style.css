@@ -388,6 +388,7 @@
     /* 16:9 */
     padding-top: 25px;
     height: 0;
+    margin-bottom: 1rem;
 }
 
 .wrapper iframe {
@@ -1246,11 +1247,8 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
-        
-    .indexContainer {
-        margin-left: 0 !important;
-    }
-
+    
+    
     #e-bookGratis a.botaoBaixarGratis {
         margin-top: 1rem;
     }
