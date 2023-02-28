@@ -24,11 +24,6 @@
     border-radius: 16px;
 }
 
-.indexContainer {
-    margin-left: 10rem !important;
-    box-shadow: none !important;
-}
-
 .sidebarContainer .posicaoFixa {
     position: fixed;
 }
