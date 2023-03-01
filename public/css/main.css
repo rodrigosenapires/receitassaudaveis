@@ -2643,9 +2643,9 @@ ol li {
 
 	/* Content */
 
-	#content {
-		box-shadow: 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
+	#content {		
 		margin: 1rem 50vh;
+		padding-top: 5rem;
 	}
 
 	#content>.inner {
