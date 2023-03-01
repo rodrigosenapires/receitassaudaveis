@@ -26,4 +26,7 @@ function calculateBMI() {
   grau: ${obesity} 
   Seu IMC é ${bmi.toFixed(2)}`;
 
+  setTimeout(function() {
+    document.querySelector("#imcVisor").innerHTML = "";
+  }, 5000);
 }
