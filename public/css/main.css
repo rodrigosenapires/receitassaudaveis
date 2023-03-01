@@ -2645,6 +2645,7 @@ ol li {
 
 	#content {
 		box-shadow: 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
+		margin: 1rem 50vh;
 	}
 
 	#content>.inner {
