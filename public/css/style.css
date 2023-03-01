@@ -96,8 +96,8 @@
 }
 
 #vantagensCel img {
-    width: 200px;
-    height: 150px;
+    width: 125px;
+    height: 100px;
 }
 
 #garantia {
@@ -105,7 +105,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0 4rem .5rem;
+    margin: 1rem 0 1rem .5rem;
 }
 
 #garantia img {
@@ -526,7 +526,7 @@ input {
 
 .e-booksTitulo h2 {
     color: #FFF;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 1rem 0;
 }
 
@@ -550,7 +550,9 @@ input {
 
 }
 
-@media screen and (min-width: 737px) {}
+@media screen and (min-width: 737px) {
+
+}
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1200px) {
@@ -755,7 +757,8 @@ input {
     }
 
     .bonusConteiner {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .imgDesktop {
@@ -824,7 +827,7 @@ input {
 
     .capaIpad {
         display: block;
-    }
+    }    
 
     #e-books .bonusConteiner {
         margin: 1rem 0 0 0;
@@ -897,7 +900,7 @@ input {
     }
 
     html body p {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .col-12 h2 {
@@ -1495,11 +1498,12 @@ input {
     }
 
     .bonusConteiner {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     #vendas .bonus {
-        width: 95%;
+        width: 180px;
     }
 
     .e-booksTitulo {
@@ -1511,8 +1515,8 @@ input {
     }
 
     #vantagens img {
-        width: 150px;
-        height: 130px;
+        width: 100px;
+        height: 75px;
     }
 
     #vantagens {

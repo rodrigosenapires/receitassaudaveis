@@ -131,8 +131,8 @@
 
 .bonus {
     background-color: #FFF;
-    width: 300px;
-    height: 308px;
+    width: 200px;
+    height: 208px;
     border-radius: 16px;
     display: flex;
     justify-content: center;
@@ -140,8 +140,8 @@
 }
 
 .bonus img {
-    width: 250px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
 }
 
 .bonusConteiner {
@@ -156,7 +156,7 @@
 #oferta {
     padding: 4rem;
     border: 3px solid #228b22;
-    margin: 2rem auto;
+    margin: 0 auto;
     position: relative;
     text-align: center;
     border-radius: 16px;
@@ -182,7 +182,8 @@
 }
 
 .tempo {
-    background-color: gainsboro;
+    background-color: #FF914D;
+    color: #FFF;
 }
 
 .precoCheio {
@@ -215,7 +216,7 @@
 }
 
 #melhorDieta .cnn {
-    margin-left: 2rem;
+    text-align: center;
 }
 
 .depoimentos h3 {
@@ -280,11 +281,11 @@
 }
 
 .melhorDietaImg {
-    width: 750px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 350px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .video h3 {
@@ -431,8 +432,8 @@
     }
 
     .bonus img {
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 200px;
     }
 
     #e-books {
