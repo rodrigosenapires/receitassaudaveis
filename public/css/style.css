@@ -9,6 +9,31 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#secaoAgradecimentoContato {
+    text-align: center;
+}
+
+#anuncieFormulario {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+
+#anuncieFormulario label {
+    font-weight: 500;
+}
+
+#anuncieFormulario input, #anuncieFormulario textarea{
+    border: 1px solid #228B22;
+    min-width: 500px;
+}
+
+#anuncieFormulario #anuncieFormularioBtn {
+    min-width: 200px;
+    max-width: 200px;
+    align-self: center;
+}
+
 .box.post .info {
     display: none;
 }
@@ -166,6 +191,7 @@
 .receitasArtigos h2 {
     font-size: 1.5rem;
     line-height: 40px;
+    margin-bottom: 1rem;
 }
 
 .receita header h2 {
@@ -449,7 +475,7 @@ input {
     margin: 8rem auto;
 }
 
-#imcCel form #botaoImc {
+#imcCel form #botaoImc, #anuncieFormularioBtn{
     color: #FFF;
     padding: .5rem;
     border-radius: 4px;

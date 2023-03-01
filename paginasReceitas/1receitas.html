@@ -18,7 +18,7 @@
 <body class="is-preload">
 
 	<!-- Conteúdo -->
-	<div id="content">
+	<div id="content" class="indexContainer">
 		<div class="inner">
 
 			<header class="box post post-excerpt">
@@ -397,105 +397,123 @@
 		</div>
 	</div>
 
-	<aside>
-		<section id="calorias">
-			<form id="formularioCalorias">
-				<h2>Calculadora de Calorias</h2>
-				<p>
-					<label for="idade">Idade:</label>
-					<input type="number" id="idade" name="idade">
-				</p>
-				<p>
-					<label for="peso">Peso (em kg):</label>
-					<input type="number" id="peso" name="peso">
-				</p>
-				<p>
-					<label for="altura">Altura (em cm):</label>
-					<input type="number" id="altura" name="altura">
-				</p>
-				<p>
-					<label for="gender">Gênero:</label>
-					<select id="gender" name="gender">
-						<option value="m">Masculino</option>
-						<option value="f">Feminino</option>
-					</select>
-				</p>
-				<p>
-					<label for="atividade">Nível de Atividade Física:</label>
-					<select id="atividade" name="atividade">
-						<option value="1.2">Sedentário</option>
-						<option value="1.375">Levemente Ativo</option>
-						<option value="1.55">Moderadamente Ativo</option>
-						<option value="1.725">Altamente Ativo</option>
-						<option value="1.9">Extremamente Ativo</option>
-					</select>
-				</p>
-				<p>
-					<label for="objetivo">Objetivo:</label>
-					<select id="objetivo" name="objetivo">
-						<option value="manter">Manter o peso</option>
-						<option value="perder">Perder peso</option>
-						<option value="ganhar">Ganhar peso</option>
-					</select>
-				</p>
-				<p>
-					<input type="submit" value="Calcular">
-				</p>
-				<div id="calculadoraVisor">
-				</div>
-			</form>
-
-			<div id="imc">
-				<form>
-					<h2>Calculadora de IMC</h2>
-					<div>
-						<label for="weight">Peso (kg):</label>
-						<input type="number" id="weight" name="weight" required>
-					</div>
-					<div>
-						<label for="height">Altura (cm):</label>
-						<input type="number" id="height" name="height" required>
-					</div>
-					<input type="button" value="Calcular IMC" onclick="calculateBMI()">
-					<div id="imcVisor">
-
+	<div class="posicaoFixa">
+		<aside>
+			<section id="calorias">
+				<form id="formularioCalorias">
+					<h2>Calculadora de Calorias</h2>
+					<p>
+						<label for="idade">Idade:</label>
+						<input type="number" id="idade" name="idade">
+					</p>
+					<p>
+						<label for="peso">Peso (em kg):</label>
+						<input type="number" id="peso" name="peso">
+					</p>
+					<p>
+						<label for="altura">Altura (em cm):</label>
+						<input type="number" id="altura" name="altura">
+					</p>
+					<p>
+						<label for="gender">Gênero:</label>
+						<select id="gender" name="gender">
+							<option value="m">Masculino</option>
+							<option value="f">Feminino</option>
+						</select>
+					</p>
+					<p>
+						<label for="atividade">Nível de Atividade Física:</label>
+						<select id="atividade" name="atividade">
+							<option value="1.2">Sedentário</option>
+							<option value="1.375">Levemente Ativo</option>
+							<option value="1.55">Moderadamente Ativo</option>
+							<option value="1.725">Altamente Ativo</option>
+							<option value="1.9">Extremamente Ativo</option>
+						</select>
+					</p>
+					<p>
+						<label for="objetivo">Objetivo:</label>
+						<select id="objetivo" name="objetivo">
+							<option value="manter">Manter o peso</option>
+							<option value="perder">Perder peso</option>
+							<option value="ganhar">Ganhar peso</option>
+						</select>
+					</p>
+					<p>
+						<input type="submit" value="Calcular">
+					</p>
+					<div id="calculadoraVisor">
 					</div>
 				</form>
-			</div>
-		</section>
-	</aside>
+
+				<div id="imc">
+					<form>
+						<h2>Calculadora de IMC</h2>
+						<div>
+							<label for="weight">Peso (kg):</label>
+							<input type="number" id="weight" name="weight" required>
+						</div>
+						<div>
+							<label for="height">Altura (cm):</label>
+							<input type="number" id="height" name="height" required>
+						</div>
+						<input type="button" value="Calcular IMC" onclick="calculateBMI()">
+						<div id="imcVisor">
+
+						</div>
+					</form>
+				</div>
+			</section>
+		</aside>
+	</div>
 
 	<!-- Sidebar -->
-	<div id="sidebar">
+	<div id="sidebar" class="sidebarContainer">
 
 		<!-- Chamada para ação -->
 		<h2 id="logo"><a id="cabecalhoAcao"
-				href="https://www.receitassaudaveis.site/vendas/mediterranea-vendas.html">Emagreça Agora</a></h2>
-
-		<!-- Ícones -->
-		<div id="icones">
-			<a href="https://www.receitassaudaveis.site/calculadora-calorias-full-page.html">
-				<i class="fa-solid fa-calculator"></i>
-				<p>Calorias</p>
-			</a>
-			<a href="https://www.receitassaudaveis.site/imcCel.html">
-				<i class="fa-solid fa-weight-scale"></i>
-				<p>Imc</p>
-			</a>
-			<a href="https://www.receitassaudaveis.site/index.html" class="home">
-				<i class="fa-solid fa-house"></i>
-				<p>Home</p>
-			</a>
-		</div>
-
+				href="https://www.receitassaudaveis.site/index.html">Emagreça Agora</a></h2>
+	
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<li><a href="https://www.receitassaudaveis.site/dietas/mediterranea.html">Dieta Mediterrânea</a></li>
-				<li><a href="https://www.receitassaudaveis.site/dietas/para-secar.html">Dieta para Secar</a></li>
-				<li><a href="https://www.receitassaudaveis.site/dietas/low-carb.html">Dieta Low-Carb</a></li>
-				<li><a href="https://www.receitassaudaveis.site/dietas/cetogenica.html">Dieta Cetogênica</a></li>
-				<li><a href="https://www.receitassaudaveis.site/todas-receitas.html">Todas as Receitas</a></li>
+				<li>
+					<i class="fa-solid fa-book-open"></i>
+					<a href="https://www.receitassaudaveis.site/blog.index.html">Blog de Receitas</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-dumbbell"></i>
+					<a href="https://www.receitassaudaveis.site/treinos.index.html">Rotina de Treinos</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-hand-holding-medical"></i>
+					<a href="https://www.receitassaudaveis.site/dicas.index.html">Dicas Nutricionais</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-leaf"></i>
+					<a href="https://www.receitassaudaveis.site/index.html">Dieta Mediterrânea</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-weight-scale"></i>
+					<a href="https://www.receitassaudaveis.site/dietas/para-secar.html">Dieta Para Secar</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-apple-whole"></i>
+					<a href="https://www.receitassaudaveis.site/dietas/low-carb.html">Dieta Low-Carb</a>
+				</li>
+				<li class="liCalculadora">
+					<i class="fa-solid fa-calculator"></i>
+					<a href="https://www.receitassaudaveis.site/imcCel.html">Calculadora de Imc</a>
+				</li>
+				<li class="liCalculadora">
+					<i class="fa-solid fa-calculator"></i>
+					<a href="https://www.receitassaudaveis.site/calculadora-calorias-full-page.html">Calculadora de
+						Cal</a>
+				</li>
+				<li>
+					<i class="fa-solid fa-book-open-reader"></i>
+					<a href="https://www.receitassaudaveis.site/todas-receitas.html">Todas as Receitas</a>
+				</li>
 			</ul>
 		</nav>
 
@@ -506,28 +524,11 @@
 					<strong>Método Med-Slim:</strong> Descubra o segredo para uma vida saudável e cheia de energia com
 					nosso
 					guia completo da dieta mediterrânea. Clique agora e transforme sua vida!<br>
-					<a href="https://www.receitassaudaveis.site/vendas/mediterranea-vendas.html">E-book: Guia definitivo
+					<a href="https://www.receitassaudaveis.site/index.html">E-book: Guia definitivo
 						da dieta Mediterrânea</a>
 				</p>
 			</div>
-		</section>
-
-		<!-- Posts Recentes -->
-		<section class="box recent-posts">
-			<header>
-				<h2>Posts Recentes</h2>
-			</header>
-			<ul>
-				<li><a href="https://www.receitassaudaveis.site/receitas/brigadeiro-lowCarb.html">Brigadeiro LowCarb</a>
-				</li>
-				<li><a href="https://www.receitassaudaveis.site/receitas/quinoa-legumes.html">Salada de quinoa</a></li>
-				<li><a href="https://www.receitassaudaveis.site/receitas/crostine-tapioca.html">Crostini de Tapioca
-						Crocante</a></li>
-				<li><a href="https://www.receitassaudaveis.site/receitas/cookie-flor.html">Cookie da Flor</a></li>
-				<li><a href="https://www.receitassaudaveis.site/receitas/quiche-alho-poro.html">Quiche de alho poró</a>
-				</li>
-			</ul>
-		</section>
+		</section>		
 	</div>
 
 	<script src="https://www.receitassaudaveis.site/public/js/jquery.min.js"></script>
