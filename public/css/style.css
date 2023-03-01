@@ -83,6 +83,11 @@
     height: auto;
 }
 
+.paginaConstrucao h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
+
 #nav ul li {
     display: flex;
     align-items: center;
