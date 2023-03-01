@@ -9,6 +9,14 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+#oferta .precoCheio {
+    font-size: 1.3rem;
+}
+
+#oferta .preco {
+   font-size: 3rem; 
+}
+
 .caloriasEnviar {
     align-self: center;    
 }
