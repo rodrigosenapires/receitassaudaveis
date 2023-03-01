@@ -9,6 +9,10 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+.caloriasEnviar {
+    align-self: center;    
+}
+
 #secaoAgradecimentoContato {
     text-align: center;
 }
@@ -297,7 +301,7 @@
 
 #calorias form {
     background-color: #FF914D;
-    padding: 20px;
+    padding: 0 20px 0 20px;
     color: #333;
     font-size: 16px;
     text-align: left;
@@ -1101,8 +1105,7 @@ input {
     #caloriasFullPage {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 5rem;
+        justify-content: center;        
     }
 
     #caloriasFullPage #formularioCalorias {
@@ -1110,6 +1113,7 @@ input {
         flex-direction: column;
         width: 50%;
         border-radius: 8px;
+        max-height: 490px;
     }
 
     .imprimir {
@@ -1121,7 +1125,7 @@ input {
 
     #caloriasFullPage #formularioCalorias select {
         width: 100%;
-        
+        border: none;
     }
 
     #calorias form input[type="submit"],
