@@ -1,6 +1,6 @@
 #formulario {
     width: 100%;
-    margin: 2rem auto 0 auto;
+    margin: 0 auto;
 }
 
 #formulario form, label {
@@ -15,9 +15,9 @@
 }
 
 #formulario form button {
-    width: 30%;
-    padding: 1rem;
-    font-size: 2rem;
+    width: 20%;
+    padding: 1.6rem;
+    font-size: 1.6rem;
 }
 
 .box h1 {
@@ -78,10 +78,10 @@
 /* Mobile */
 @media screen and (max-width: 736px) {
     #formulario form button {
-        width: 25%;
+        width: 100%;
         padding: 1rem;
         font-size: 1rem;
-        margin: 1rem auto 0 5rem;
+        margin: 1rem auto;
     }
     
     #formulario form {
@@ -89,6 +89,7 @@
         flex-direction: column;
         justify-content: center;
         width: 80%;
+        margin: 0 auto;
     }
 
     #formulario #e-bookGratisFormulario label {
@@ -101,7 +102,7 @@
     }
 
     #formulario #e-bookGratisFormulario label input  {
-        width: 60%;
+        width: 100%;
         margin: .2rem 0 0 0;
     }
 
