@@ -290,15 +290,14 @@
 	<script src="https://www.receitassaudaveis.site/public/js/script.js"></script>
 	<script>
 		function downloadPDF() {
-  const link = document.createElement('a');
-  link.href = 'https://github.com/rodrigosenapires/receitassaudaveis/blob/main/e-books/E-book%20gr%C3%A1tis%20-%20Dieta%20Mediterr%C3%A2nea.pdf';
-  link.download = 'meu_ebook.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
-	</script>
+		  const link = document.createElement('a');
+		  link.href = 'https://raw.githubusercontent.com/rodrigosenapires/receitassaudaveis/main/e-books/E-book%20gr%C3%A1tis%20-%20Dieta%20Mediterr%C3%A2nea.pdf';
+		  link.download = 'e-book-gratis-dieta-mediterranea.pdf';
+		  document.body.appendChild(link);
+		  link.click();
+		  document.body.removeChild(link);
+		}
+	  </script>
 </body>
 
 </html>
