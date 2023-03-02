@@ -25,12 +25,9 @@
 #vantagens h2,
 #provasSociais h2, #conclusao h2 {
     color: #228b22;
-    font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-family: 'Playfair Display', serif;    
     font-weight: 700;
-    text-align: center;
-    line-height: 50px;
-    margin-bottom: 2rem;
+    text-align: center;       
 }
 
 #video {
@@ -399,8 +396,8 @@
     .botaoAcao {
         margin: 1rem 0 0 0;
         width: 100%;
-        font-size: 1rem;
-        padding: .5rem;
+        font-size: 1.4rem;
+        padding: 1rem;
         margin: 0 auto;
     }
 
@@ -467,8 +464,8 @@
 
     #vendas #acao h1,
     #vantagens h2 {
-        font-size: 1.5rem;
-        line-height: 30px;
+        font-size: 1.2rem;
+        line-height: 25px;
     }
 
     #cabecalho div p {
