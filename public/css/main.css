@@ -1979,8 +1979,8 @@ ol li {
 }
 
 .pagination .pages a {
-	min-width: 22px;
-	min-height: 22px;
+	min-width: 42px;
+	min-height: 42px;
 	cursor: pointer;
 	display: inline-block;
 	text-align: center;

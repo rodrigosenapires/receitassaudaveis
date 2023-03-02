@@ -2,7 +2,7 @@
 display: flex;
 align-items: center;
 justify-content: space-around;
-margin: 3rem 0;
+margin: 2rem 0;
 }
 
 .recomendadosCard {
@@ -36,8 +36,7 @@ margin: 3rem 0;
     text-align: center;
     color: #FFF;
     font-weight: 700;
-    font-size: 1.5rem;
-    margin-top: 2rem;
+    font-size: 1.5rem;    
 }
 
 @media screen and (min-width: 1500px) {}

@@ -9,7 +9,26 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+.navegacaoReceitas .pagination .pages {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;    
+}
 
+.navegacaoReceitas .pagination .pages div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacaoReceitas .pagination .pages a {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 #oferta .precoCheio {
     font-size: 1.3rem;
@@ -174,8 +193,8 @@
 
 .receita header h1 {
     color: #FF914D;
-    font-size: 2.5rem;
-    
+    font-size: 2rem;
+    line-height: 40px;
 }
 
 #homeIntroducao h1#tituloIndex {
@@ -204,7 +223,7 @@
 }
 
 #receitasNutricional p:last-child {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -1321,8 +1340,26 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {  
+@media screen and (max-width: 736px) {    
    
+    #secaoRecomendados.box.post {
+        padding-bottom: 0;
+    }
+
+    .navegacaoReceitas .pagination .pages {
+        display: flex;
+        justify-content: center;
+        align-items: center;          
+        margin: 0;
+    }
+
+   
+
+    #recomendados {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     #nav .liCalculadora {
         display: flex;
     }
