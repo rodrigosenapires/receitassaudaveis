@@ -27,7 +27,9 @@
     color: #228b22;
     font-family: 'Playfair Display', serif;    
     font-weight: 700;
-    text-align: center;       
+    text-align: center;  
+    line-height: 45px;
+    margin-bottom: 1rem;
 }
 
 #video {
