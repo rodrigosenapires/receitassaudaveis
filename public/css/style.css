@@ -9,6 +9,7 @@
 @import url(todas-receitas.css);
 @import url(anuncie.css);
 
+
 .navegacaoReceitas .pagination .pages {
     display: flex;
     gap: 6rem;
@@ -195,6 +196,7 @@
     color: #FF914D;
     font-size: 2rem;
     line-height: 40px;
+    margin-bottom: 1rem;
 }
 
 #homeIntroducao h1#tituloIndex {
@@ -1341,7 +1343,12 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {    
-   
+    
+    .receita header h1 {        
+        font-size: 1.5rem;
+        line-height: 30px;        
+    }
+
     #secaoRecomendados.box.post {
         padding-bottom: 0;
     }
