@@ -8,6 +8,7 @@
 @import url(fontawesome-all.min.css);
 @import url(todas-receitas.css);
 @import url(anuncie.css);
+@import url(tabela-sumario.css);
 
 .bodyIndex {
     background-color: #228B22;    
@@ -62,11 +63,11 @@
 }
 
 .arvoreLinksContainer div:last-child a {
-    margin-right: 1.8rem;
+    margin-right: 1.4rem;
 }
 
 .arvoreLinksContainer div:first-child a {
-    margin-right: 3.5rem;
+    margin-right: 3.85rem;
 }
 
 .arvoreLinksContainer div:nth-of-type(2) a {
