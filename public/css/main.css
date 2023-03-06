@@ -1982,7 +1982,7 @@ ol li {
 	min-width: 42px;
 	min-height: 42px;
 	cursor: pointer;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	text-decoration: none;
 	color: inherit;

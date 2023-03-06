@@ -1582,14 +1582,14 @@ input {
         margin-top: 3rem;
     }
 
-    .pagination .pages {
+    div.pagination .pages {
         display: flex;
     }
 
-    .pagination .pages a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    div.pagination .pages a {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     #arvoreLinksWrapper h2 {
