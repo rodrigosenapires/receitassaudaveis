@@ -10,12 +10,20 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
-.bodyIndex {
-    background-color: #228B22;    
+.arvoreLinksContainer div.displayDestop {
+    height: 60px;
 }
 
-#titleBar {
+.arvoreLinksContainer div.displayDestop i {
+    margin-bottom: .7rem;
+}
+
+#arvore .displayCel {
     display: none;
+}
+
+.bodyIndex {
+    background-color: #228B22;    
 }
 
 #content.arvoreLinks {
@@ -29,8 +37,7 @@
     flex-direction: column;
     background-color: #FF914D;
     border-radius: 16px;
-    padding: 1rem;
-   
+    padding: 1rem;   
     margin-top: 22.5vh;
 }
 
@@ -54,10 +61,12 @@
 
 #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
     color: #FFF;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .arvoreLinksContainer div p {
-    margin-left: .5rem;
+    
     font-weight: 700;
     color: #FFF;
 }
@@ -67,7 +76,7 @@
 }
 
 .arvoreLinksContainer div:first-child a {
-    margin-right: 3.85rem;
+    margin-right: 2.7rem;
 }
 
 .arvoreLinksContainer div:nth-of-type(2) a {
@@ -76,12 +85,12 @@
 
 .arvoreLinksContainer div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
     border: 1px solid #FFF;
-    border-radius: 32px;
-    padding: .5rem;
+    border-radius: 24px;
+    padding: 1rem;
     width: 400px;
 }
 
@@ -1561,8 +1570,44 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {    
+@media screen and (max-width: 736px) {  
+   
+    #arvoreLinksWrapper h2 {
+        margin-top: .8rem;
+    }  
+
+    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+        text-align: center;
+        margin-top: .8rem;
+    }
+
+    .arvoreLinksContainer div:last-child a {
+        margin-right: 0;
+    }
     
+    #arvore .displayDestop {
+        display: none;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel {
+        display: flex;
+        align-items: center;
+        width: 200px;  
+        height: 40px;   
+    } 
+
+    .arvoreLinksContainer div:nth-of-type(2) a {
+        margin-right: 20px;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel i {
+        margin-bottom: .6rem;
+    }   
+    
+    .arvoreLinksContainer div {
+        min-width: 200px;
+    }
+
     .receita header h1 {        
         font-size: 1.5rem;
         line-height: 30px;        
@@ -1577,9 +1622,7 @@ input {
         justify-content: center;
         align-items: center;          
         margin: 0;
-    }
-
-   
+    } 
 
     #recomendados {
         flex-direction: column;
@@ -1623,7 +1666,7 @@ input {
         justify-content: space-between;
         background-color: #228B22;
         height: 70px;
-        margin-bottom: .5rem;
+        margin: 3rem 0 .5rem 0;
         padding: 1rem;
     }
 
@@ -1916,4 +1959,44 @@ input {
 }
 
 /* Off-Canvas Sidebar / Barra lateral fora da tela*/
-@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 1000px) {
+    #arvoreLinksWrapper {
+        margin-top: 3rem;
+    }
+
+    #arvoreLinksWrapper h2 {
+        margin-top: .8rem;
+    }  
+
+    #arvoreLinksWrapper h3, .arvoreLinksContainer div i {
+        text-align: center;
+        margin-top: .8rem;
+    }
+
+    .arvoreLinksContainer div:last-child a {
+        margin-right: 0;
+    }
+    
+    #arvore .displayDestop {
+        display: none;
+    }
+
+    #arvore .arvoreLinksContainer .displayCel {
+        display: flex;
+        align-items: center;
+        width: 200px;  
+        height: 40px;   
+    } 
+
+    div#content.indexContainer {
+        margin: 0;
+    }
+    
+    #arvore .arvoreLinksContainer .displayCel i {
+        margin-bottom: .6rem;
+    }   
+    
+    .arvoreLinksContainer div {
+        min-width: 200px;
+    }
+}
