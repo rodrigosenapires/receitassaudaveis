@@ -2411,7 +2411,7 @@ ol li {
 	font-size: 0.9em;
 }
 
-#sidebar section:before,
+#sidebar section:before, 
 #sidebar nav:before {
 	content: '';
 	border-top: solid 1px;
