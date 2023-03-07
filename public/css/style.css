@@ -499,6 +499,12 @@ article.receitasArtigos h2.receitastitulo {
 
 }
 
+#paginas .pagination .pages a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #paginas {
     display: flex;
     flex-direction: column;
