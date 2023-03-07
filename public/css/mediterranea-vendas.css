@@ -23,14 +23,14 @@
 
 #vendas #acao h1,
 #vantagens h2,
-#provasSociais h2, #conclusao h2 {
+div#provasSociais h2, #conclusao h2 {
     color: #228b22;
     font-family: 'Playfair Display', serif;    
     font-weight: 700;
     text-align: center;  
     line-height: 45px;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #video {
@@ -207,9 +207,9 @@
     flex-direction: column;
 }
 
-#provasSociais h2 {
+div#provasSociais h2 {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #provasSociais p {
