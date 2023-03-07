@@ -45,7 +45,6 @@
 					<h1>Obrigado por baixar o E-book de Dieta Mediterrânea!</h1>
 					<a href="https://github.com/rodrigosenapires/receitassaudaveis/raw/main/vendas/e-book-gratis-dieta-mediterranea.pdf
 					" class="baixarBotao" download="e-book-gratis-dieta-mediterranea.pdf">Baixar PDF</a>
-					<button onclick="downloadPDF()">Baixar</button>
 				</div>
 
 				<footer id="rodape" class="box post post-excerpt">
@@ -294,17 +293,7 @@
 	<script src="https://www.receitassaudaveis.site/public/js/calculadora-calorias.js"></script>
 	<script src="https://www.receitassaudaveis.site/public/js/calculadora-imc.js"></script>
 	<script src="https://www.receitassaudaveis.site/public/js/script.js"></script>	
-	<script>
-		function downloadPDF() {
-		  var link = document.createElement("a");
-		  link.href = "https://github.com/rodrigosenapires/receitassaudaveis/raw/main/vendas/e-book-gratis-dieta-mediterranea.pdf";
-		  link.download = "e-book-gratis-dieta-mediterranea.pdf";
-		  document.body.appendChild(link);
-		  link.click();
-		  document.body.removeChild(link);
-		}
-		</script>
-
+	
 </body>
 
 </html>
