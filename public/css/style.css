@@ -10,6 +10,14 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
+.emailRodape i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
 #sidebar.linhaFinal nav:after {
     content: '';
 	border-top: solid 1px;
