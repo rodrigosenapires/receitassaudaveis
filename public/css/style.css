@@ -10,7 +10,7 @@
 @import url(anuncie.css);
 @import url(tabela-sumario.css);
 
-.emailRodape i {
+.emailRodape {
     display: flex;
     justify-content: center;
     align-items: center;
