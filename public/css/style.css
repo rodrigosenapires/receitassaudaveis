@@ -1596,8 +1596,11 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1000px) {}
 
 /* Mobile */
-@media screen and (max-width: 736px) {  
-    
+@media screen and (max-width: 736px) {      
+    #rodape li h3 {
+        margin: 0;
+    }
+
     #botaoTopoWrapper {
         bottom: -33px;
         right: -5px;
