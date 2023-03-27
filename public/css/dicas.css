@@ -1,0 +1,57 @@
+#artigo1 header h1 {
+    margin-top: 2rem;
+}
+
+#artigo1 header p {
+    margin-top: 2rem;
+}
+
+#impactoAlimentacao p {
+    margin: 1rem 0;
+}
+
+#impactoAlimentacao h2 {
+    margin: 2rem 0;
+    text-align: center;
+    color: #228B22;
+    font-size: 1.5rem;
+}
+
+#impactoAlimentacao li {
+    margin: .5rem 0;
+}
+
+.impactoAlimentacaoContainer {
+    box-shadow: 0px 0px 10px 0px #333;
+    border-radius: 16px;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+.impactoAlimentacaoContainer span {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.referenciasEstudos {
+    display: flex;
+    flex-direction: column;
+    background-color: #228B22;
+    border-radius: 16px;
+    padding: 1rem;
+}
+
+.referenciasEstudos h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#tituloVideo {
+    font-size: 1.8rem;
+    color: #228B22;
+    text-align: center;
+    font-weight: 700;
+    margin: 1rem 0;
+}
