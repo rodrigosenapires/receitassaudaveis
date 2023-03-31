@@ -1,0 +1,207 @@
+div#content .propagandaLaptopContainer .propaganda-1Botao  {
+    top: 295px;
+    left: 225px;
+}
+
+div#content .propagandaLaptopContainer .propaganda0Botao  {
+    top: 295px;
+    left: 665px;
+}
+
+div#content .propagandaLaptopContainer .propaganda1Botao  {
+    top: 1277px;
+    left: 150px;
+}
+
+div#content .propagandaLaptopContainer .propaganda2Botao  {
+    top: 1277px;
+    left: 663px;
+}
+
+div#content .propagandaLaptopContainer .propaganda3Botao  {
+    top: 2257px;
+    left: 235px;
+}
+
+div#content .propagandaLaptopContainer .propaganda4Botao  {
+    top: 2257px;
+    left: 635px;
+}
+
+div#content .propagandaLaptopContainer .propaganda5Botao  {
+    top: 3237px;
+    left: 215px;
+}
+
+div#content .propagandaLaptopContainer .propaganda6Botao  {
+    top: 3237px;
+    left: 670px;
+}
+
+div#content .propagandaLaptopContainer .propaganda7Botao  {
+    top: 4220px;
+    left: 20px;
+}
+
+div#content .propagandaLaptopContainer .propaganda8Botao  {
+    top: 4220px;
+    left: 650px;
+}
+
+div#content .propagandaLaptopContainer .propaganda9Botao  {
+    top: 5170px;
+    left: 195px;
+}
+
+div#content .propagandaLaptopContainer .propaganda10Botao  {
+    top: 5170px;
+    left: 570px;
+}
+
+
+
+@media screen and (min-width: 780px) and (max-width: 1300px) {
+    div#content .propagandaLaptopContainer button.propaganda-1Botao  {
+        top: 305px;
+        left: 220px;
+    }        
+    
+    div#content .propagandaLaptopContainer .propaganda0Botao {
+        top: 305px;
+        left: 628px;
+    }
+    
+    div#content .propagandaLaptopContainer button.propaganda1Botao {
+        top: 1260px;
+        left: 150px;
+    }
+    
+    div#content .propagandaLaptopContainer button.propaganda2Botao  {
+        top: 1260px;
+        left: 600px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda3Botao  {
+        top: 2213px;
+        left: 225px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda4Botao  {
+        top: 2213px;
+        left: 580px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda5Botao  {
+        top: 3170px;
+        left: 210px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda6Botao  {
+        top: 3170px;
+        left: 610px;
+        
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda7Botao  {
+        top: 4160px;
+        left: 40px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda8Botao  {
+        top: 4160px;
+        left: 595px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda9Botao  {
+        top: 5125px;
+        left: 195px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda10Botao  {
+        top: 5125px;
+        left: 527px;
+        min-width: 120px;
+    }
+
+    div.propagandaLaptopContainer {
+        width: 760px;
+        margin: 0;
+    }
+    
+    .propagandaLaptopContainer img {
+        max-width: 310px;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+
+    div#content .propagandaLaptopContainer button.propaganda-1Botao  {
+        top: 275px;
+        left: 260px;
+    }        
+    
+    div#content .propagandaLaptopContainer .propaganda0Botao {
+        top: 505px;
+        left: 263px;
+    }
+    
+    div#content .propagandaLaptopContainer button.propaganda1Botao {
+        top: 1335px;
+        left: 190px;
+    }
+    
+    div#content .propagandaLaptopContainer button.propaganda2Botao  {
+        top: 1567px;
+        left: 265px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda3Botao  {
+        top: 2425px;
+        left: 280px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda4Botao  {
+        top: 2655px;
+        left: 240px;        
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda5Botao  {
+        top: 3515px;
+        left: 255px;
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda6Botao  {
+        top: 3745px;
+        left: 270px;
+        
+    }
+    
+    div#content .propagandaLaptopContainer .propaganda7Botao  {
+        top: 4700px;
+        left: 60px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda8Botao  {
+        top: 4930px;
+        left: 250px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda9Botao  {
+        top: 5750px;
+        left: 240px;
+    }
+
+    div#content .propagandaLaptopContainer .propaganda10Botao  {
+        top: 5980px;
+        left: 170px;
+    }
+
+    #content .propagandaLaptopContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 1rem 0;
+    }
+}
