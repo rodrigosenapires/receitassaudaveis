@@ -1292,6 +1292,10 @@ input {
     display: none;
 }
 
+.anunciosPropagandasCel {
+    display: none;
+}
+
 @media screen and (max-width: 1980px) {
 
     #content .propaganda1Botao {
@@ -2140,6 +2144,23 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
+    
+    article#artigo1 header h1 {
+        text-align: left;
+        font-size: 2rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .anunciosPropagandasCel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }      
+   
+    .anunciosPropagandas {
+        display: none;
+    }
 
     #content .propagandaLaptopContainer {
         flex-direction: column;
