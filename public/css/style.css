@@ -12,6 +12,11 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
+#logo #cabecalhoAcao {
+    min-width: 184px;
+    min-height: 136px;
+    font-size: 2rem;
+}
 
 .anuncioImg {
     position: absolute;      
