@@ -6,5 +6,13 @@
     div#content.indexContainer {
       margin-left: 0;
     }
+
+    #anunciosPropagandas {
+      display: none;
+    }
+
+    .propagandaMenu {
+      display: none;
+    }
   }
   
