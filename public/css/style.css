@@ -12,7 +12,15 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
-#logo #cabecalhoAcao {
+.propagandaMedLaptop {
+    display: none;
+}
+
+.anunciosPropagandasIdad {
+    display: none;
+}
+
+h2#logo #cabecalhoAcao {
     display: block;
     background-color: #FF914D;
     background-image: url(../images/bg01.png);
@@ -23,7 +31,7 @@
     text-decoration: none;
     color: #fff;
     line-height: 40px;
-    min-height: 136px;
+    height: 136px;
 }
 
 .anuncioImg {
@@ -181,8 +189,6 @@
     max-width: 300px;
     height: 300px;
 }
-
-
 
 .propagandaLaptopContainer .propaganda-1Botao {
     top: 770px;
@@ -1386,7 +1392,53 @@ input {
 @media screen and (min-width: 737px) {}
 
 /* Tablet */
-@media screen and (min-width: 737px) and (max-width: 1200px) {
+@media screen and (min-width: 737px) and (max-width: 1300px) {
+    
+    .propagandaMedLaptop {
+        display: none;
+    }
+    
+    div.anunciosPropagandasCel {
+        display: none;
+    }
+
+    .anunciosPropagandasIdad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2#logo #cabecalhoAcao {
+        height: 40px;
+        font-size: 1rem;
+        line-height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sidebar img {
+        width: 160px;
+    }
+
+    div#anunciosPropagandas {
+        display: none;
+    }
+
+    header p {
+        margin-top: 1rem;
+    }
+
+    .receita header h1 {
+        margin: 2rem;
+        font-size: 3rem;
+    }
+
+    .anunciosPropagandasCel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .botaoAcao {
         margin: 4rem auto;
@@ -1702,7 +1754,54 @@ input {
 
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
+    
+    div#anunciosPropagandas {
+        display: none;
+    }
 
+    .propagandaMed {
+        display: none;
+    }
+
+    .propagandaMedLaptop {
+        
+              
+    }
+    
+    header p {
+        margin-top: 1rem;
+    }
+
+    .receita header h1 {
+        margin: 2rem;
+        font-size: 3rem;
+    }
+
+    .anunciosPropagandasIdad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2#logo #cabecalhoAcao {
+        height: 60px;
+        font-size: 1rem;
+        line-height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sidebar img {
+        width: 160px;
+    }
+
+    .anunciosPropagandasCel {
+        display: none;
+    }
+
+    
+    
     .propagandaLaptopContainer {
         display: flex;
         gap: 1rem;
@@ -2152,7 +2251,17 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 736px) {
-    
+    .propagandaMed {
+        width:100%;
+    }
+    .propagandaMedLaptop {
+        display: none;
+    }
+
+    .anunciosPropagandasIdad {
+        display: none;
+    }
+
     article#artigo1 header h1 {
         text-align: left;
         font-size: 2rem;
