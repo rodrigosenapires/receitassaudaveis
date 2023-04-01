@@ -12,6 +12,18 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
+nav {
+    margin-top: 1.5rem;
+}
+
+#logo {
+    margin-top: 1rem;
+}
+
+.propagandaMed {
+    margin-top: 8.35rem;
+}
+
 #content #cabecalho img + p, #content #cabecalho i + p {
     margin: 0;
 }
@@ -1171,9 +1183,6 @@ article.receitasArtigos h2.receitastitulo {
     border-radius: 4px;
 }
 
-#logo {
-    font-size: 1rem !important;
-}
 
 #agradecimento h1 {
     line-height: 40px;
@@ -1414,6 +1423,14 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1300px) {
 
+    .propagandaMed {
+        margin-top: 0;
+    }
+
+    #content .anunciosPropagandasIpad, #content .anunciosPropagandasCel {
+        margin: 2rem 0;
+    }
+
     .propagandaMedLaptop {
         display: none;
     }
@@ -1422,7 +1439,7 @@ input {
         display: none;
     }
 
-    div.anunciosPropagandasIpad {
+    #content div.anunciosPropagandasIpad {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2293,7 +2310,12 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 999px) {
-
+    .anunciosPropagandasCel img {
+        margin: 1rem 0;
+    }
+    .propagandaMed {
+        margin-top: 0;
+    }
 
     div#content.indexContainer div.inner {
         margin: 60px 0 0 2rem;
