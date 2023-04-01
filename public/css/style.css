@@ -1395,7 +1395,7 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1300px) {
     
     .propagandaMedLaptop {
-        display: none;
+        display: block;
     }
     
     div.anunciosPropagandasCel {
@@ -1405,9 +1405,9 @@ input {
     .anunciosPropagandasIpad {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;        
     }
-
+    
     h2#logo #cabecalhoAcao {
         height: 40px;
         font-size: 1rem;
@@ -1418,7 +1418,7 @@ input {
     }
 
     #sidebar img {
-        width: 160px;
+        width: 100%;
     }
 
     div#anunciosPropagandas {
@@ -1763,9 +1763,11 @@ input {
         display: none;
     }
 
-    .propagandaMedLaptop {
-        
-              
+    .anunciosPropagandasIpad {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 1rem 0;       
     }
     
     header p {
@@ -1793,7 +1795,7 @@ input {
     }
 
     #sidebar img {
-        width: 160px;
+        width: 100%;
     }
 
     .anunciosPropagandasCel {
