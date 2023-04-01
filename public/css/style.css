@@ -16,7 +16,7 @@
     display: none;
 }
 
-.anunciosPropagandasIdad {
+.anunciosPropagandasIpad {
     display: none;
 }
 
@@ -1402,7 +1402,7 @@ input {
         display: none;
     }
 
-    .anunciosPropagandasIdad {
+    .anunciosPropagandasIpad {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1777,7 +1777,7 @@ input {
         font-size: 3rem;
     }
 
-    .anunciosPropagandasIdad {
+    .anunciosPropagandasIpad {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2258,7 +2258,7 @@ input {
         display: none;
     }
 
-    .anunciosPropagandasIdad {
+    .anunciosPropagandasIpad {
         display: none;
     }
 
