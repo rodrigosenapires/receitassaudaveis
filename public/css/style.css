@@ -1423,11 +1423,10 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1300px) {
-    
-    h2#logo a#cabecalhoAcao {
-        height: auto;
-    }
-
+   h2#logo a#cabecalhoAcao {
+    padding: 2rem;
+   }
+   
     .propagandaMed {
         margin-top: 0;
     }
