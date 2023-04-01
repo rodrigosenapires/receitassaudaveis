@@ -529,6 +529,7 @@ h2#logo #cabecalhoAcao {
     background-color: #228B22;
 }
 
+
 #arvoreLinksWrapper {
     display: flex;
     justify-content: center;
@@ -1422,7 +1423,7 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1300px) {
-
+ 
     .propagandaMed {
         margin-top: 0;
     }
