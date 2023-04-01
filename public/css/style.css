@@ -12,6 +12,10 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
+.propagandaIpadLap {
+    display: none;
+}
+
 nav {
     margin-top: 1.5rem;
 }
@@ -1423,7 +1427,18 @@ input {
 
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1300px) {
-   h2#logo a#cabecalhoAcao {
+   
+    .propagandaIpadLap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .propagandaMedPadrao {
+    display: none;
+   }
+   
+    h2#logo a#cabecalhoAcao {
     padding: 2rem;
    }
    
