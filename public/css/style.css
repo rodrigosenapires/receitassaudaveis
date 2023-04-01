@@ -1750,7 +1750,11 @@ input {
     }
 }
 
-@media screen and (min-width: 737px) {}
+@media screen and (min-width: 1440px) and (max-width: 1660px){
+    #anunciosPropagandas {
+        display: none;
+    }
+}
 
 /* Laptop */
 @media screen and (min-width: 1202px) and (max-width: 1460px) {
