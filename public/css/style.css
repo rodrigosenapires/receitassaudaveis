@@ -28,7 +28,7 @@ nav {
     margin-top: 8.35rem;
 }
 
-#content #cabecalho img + p, #content #cabecalho i + p {
+#content #cabecalho img + p, div#content #cabecalho i + p {
     margin: 0;
 }
 
