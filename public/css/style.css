@@ -12,6 +12,15 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
+#content #cabecalho img + p, #content #cabecalho i + p {
+    margin: 0;
+}
+
+#content div#anunciosPropagandas .imagem-wrapper {
+    max-width: 100%;
+    height: auto;
+}
+
 #content div#anunciosPropagandas img {
     max-width: 100%;
     height: auto;
@@ -1315,6 +1324,12 @@ input {
     display: none;
 }
 
+@media screen and (max-width: 1868px) {
+    .posicaoFixa div#calorias {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1980px) {
 
     #content .propaganda1Botao {
@@ -1383,7 +1398,7 @@ input {
 
 
 
-@media screen and (max-width: 1582px) {
+@media screen and (max-width: 1880px) {
     #calorias {
         display: none;
     }
@@ -1400,14 +1415,14 @@ input {
 @media screen and (min-width: 737px) and (max-width: 1300px) {
 
     .propagandaMedLaptop {
-        display: block;
+        display: none;
     }
 
     div.anunciosPropagandasCel {
         display: none;
     }
 
-    .anunciosPropagandasIpad {
+    div.anunciosPropagandasIpad {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1757,6 +1772,18 @@ input {
 
 @media screen and (min-width: 1440px) and (max-width: 1660px) {
     #anunciosPropagandas {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1461px) and (max-width: 1599px) {
+    #content div.anunciosPropagandasIpad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#anunciosPropagandas {
         display: none;
     }
 }
@@ -2258,10 +2285,20 @@ input {
 }
 
 /* Narrower / Mais Estrito */
-@media screen and (min-width: 737px) and (max-width: 1000px) {}
+@media screen and (min-width: 737px) and (max-width: 1023px) {
+    #content .anunciosPropagandasIpad {
+        display: flex;
+    }
+}
 
 /* Mobile */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 999px) {
+
+
+    div#content.indexContainer div.inner {
+        margin: 60px 0 0 2rem;
+    }
+
     .propagandaMed {
         width: 100%;
     }
@@ -2423,7 +2460,7 @@ input {
         justify-content: space-between;
         background-color: #228B22;
         height: 70px;
-        margin: 3rem 0 .5rem 0;
+        margin-right: 2rem;
         padding: 1rem;
     }
 
@@ -2717,6 +2754,8 @@ input {
 
 /* Off-Canvas Sidebar / Barra lateral fora da tela*/
 @media screen and (max-width: 1000px) {
+
+
     #arvoreLinksWrapper {
         margin-top: 3rem;
     }

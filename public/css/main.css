@@ -2455,7 +2455,7 @@ ol li {
 #content.indexContainer {
 	padding: 1rem 5rem 2rem 5rem;
 	margin-left: 50vh;
-	box-shadow: none;
+	box-shadow: none;	
 }
 
 #content {
@@ -2470,7 +2470,7 @@ ol li {
 	-webkit-flex-shrink: 1;
 	-ms-flex-shrink: 1;
 	flex-shrink: 1;
-
+	height: 100vh;
 }
 
 #content>.inner {
