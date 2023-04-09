@@ -2380,7 +2380,7 @@ ol li {
 #sidebar {
 	color: rgba(255, 255, 255, 0.55);
 	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
-	width: 14em;
+	width: 16em;
 	padding: .5rem 1.35em 1em 1.15em;
 	background: #228B22;
 	overflow-y: auto;

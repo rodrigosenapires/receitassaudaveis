@@ -12,6 +12,163 @@
 @import url(loja-med-slim.css);
 @import url(dicas.css);
 
+:root {
+    --verde: #228B22;
+    --laranja: #FF914D;
+    --branco: #FFF;
+}
+
+body h1, body h2 {
+    font-family: 'Chewy', cursive;
+}
+
+div#logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #FF914D;
+    background-image: url(../images/bg01.png);
+    padding: 0.875em 0.25em;
+    border-radius: 0.2em;
+    text-align: center;
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);    
+    height: 60px;
+}
+
+.posicaoFixa aside #calorias {
+    display: block;
+}
+
+#logo2 a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.box .propagandaMedPadrao a.propagandaMenu img {
+    height: 270px;
+    margin-left: 2rem;
+}
+
+#content .receitasArtigos .indexPostImagem {
+    
+    height: 380px;
+    width: 650px;
+}
+
+#sidebar .propagandaMed {
+    margin-top: 6.35rem;
+    margin-left: 1rem;
+}
+
+/* Configuração dos audios das matérias */
+.audioContaine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.audioContaine h3 {
+    margin-bottom: .2rem;    
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-color: var(--verde);
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .progress-container {
+    background-color: var(--branco);
+    flex-grow: 1;
+    height: 5px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: var(--laranja);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 0;
+  }
+
+/* Configurações das matérias sobre treinos */
+.borda {
+    border: 2px solid var(--verde);
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+#materiaDescricao .botaoEbookMateria {
+    background-color: var(--verde);
+    padding: 1rem;
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 200px;
+}
+
+#materiaDescricao li {
+    margin-top: .5rem;
+}
+
+#materiaDescricao p {
+    margin: 1rem 0;
+}
+
+#materiaDescricao p:first-child {
+    margin: 0;
+}
+
+#materiaDescricao h2 {
+    font-size: 1.7rem;
+    color: var(--laranja);
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+.imgContainer, .botaoMateriaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+#materiaDescricao .img1 {
+    width: 125px;
+    height: 200px;
+}
+
+#materiaDescricao .img {
+    width: 800px;
+    height: 200px;
+}
+
 .propagandaIpadLap {
     display: none;
 }
@@ -941,7 +1098,7 @@ article.receitasArtigos h2.receitastitulo {
     color: #FF914D;
     font-size: 4rem;
     line-height: 60px;
-    margin: 4rem;
+    margin: 2rem 4rem 1rem 4rem;
 }
 
 #homeIntroducao h1#tituloIndex {
@@ -1428,6 +1585,11 @@ input {
 /* Tablet */
 @media screen and (min-width: 737px) and (max-width: 1300px) {
    
+    #sidebar .propagandaMed {
+        margin: 0;
+    }
+
+
     .propagandaIpadLap {
         display: flex;
         justify-content: center;
@@ -2329,9 +2491,44 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 999px) {
+    div#cabecalho {
+        margin: 4rem .5rem 0 .5rem        
+    }
+
+    article.receita header h1 {
+        margin: 0 0 2rem 0;
+        line-height: 45px;
+    }
+    
+    .borda {
+        border: none;
+    }
+    
+    #content.indexContainer {
+        padding: 0;        
+    }
+
+    div#content.indexContainer div#innerMateria.inner {
+        margin: 0;
+    }
+
+    #sidebar {
+        width: 12.5rem;
+    }
+    
+    #sidebar .propagandaMed {
+        margin: 0 auto;
+    }
+
+    #materiaDescricao .img {
+        width: 100%;
+        height: 150px;
+    }
+
     .anunciosPropagandasCel img {
         margin: 1rem 0;
     }
+
     .propagandaMed {
         margin-top: 0;
     }
