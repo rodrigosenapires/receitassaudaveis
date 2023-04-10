@@ -1,21 +1,11 @@
-// Topo Index
-document.querySelector("#botaoTopoWrapper").addEventListener("click", function() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
+function scrollToTop() {
+  document.body.scrollIntoView({ behavior: 'smooth' });
+}
 
-  // Topo todas as receitas
-  document.querySelector(".categoriasBotaoTopo").addEventListener("click", function() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-  
+const botaoTopoWrapper = document.querySelector("#botaoTopoWrapper");
+botaoTopoWrapper.addEventListener("click", scrollToTop);
+botaoTopoWrapper.addEventListener("touchstart", scrollToTop);
 
-// const iconeBase = document.querySelector('#iconeBase');
-// iconeBase.addEventListener('click', function() {
-//   window.scrollTo(0, document.body.scrollHeight);
-// });
+const categoriasBotaoTopo = document.querySelector(".categoriasBotaoTopo");
+categoriasBotaoTopo.addEventListener("click", scrollToTop);
+categoriasBotaoTopo.addEventListener("touchstart", scrollToTop);
