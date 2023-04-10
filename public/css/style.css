@@ -19,8 +19,13 @@
     --branco: #FFF;
 }
 
+
 body h1, body h2 {
     font-family: 'Chewy', cursive;
+}
+
+.referenciasEstudos .referenciasEstudos h3 {
+    color: var(--verde);
 }
 
 #anunciosPropagandas {
