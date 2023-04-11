@@ -37,6 +37,25 @@ body h2 {
     font-family: 'Chewy', cursive;
 }
 
+div.anunciosPropagandasIpad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+iframe {
+    margin-top: .5rem;
+}
+
+#video h2 {
+    margin-top: 1rem;
+}
+
+article.receita header h1 {
+    margin: 3rem 0 2rem 0;
+}
+
 .referenciasEstudos .referenciasEstudos h3 {
     color: var(--verde);
 }
@@ -2582,7 +2601,9 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 999px) {
-    
+    #content article.receita header h1 {
+        margin: 0;
+    }
     
 
     #blogApresentacaoTreino h1, #blogApresentacao h1 {
