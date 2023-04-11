@@ -20,6 +20,13 @@
     --cinza-claro: #F2F2F2;
 }
 
+#blogApresentacaoTreino {
+    background-color: var(--branco);
+    padding: 1rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+}
+
 body,
 div#content {
     background-color: var(--cinza-claro);
@@ -2576,6 +2583,20 @@ input {
 /* Mobile */
 @media screen and (max-width: 999px) {
     
+    
+
+    #blogApresentacaoTreino h1, #blogApresentacao h1 {
+        font-size: 2rem;
+    }
+
+    #titleBar .title {
+        display: none;
+    }
+
+    #content section#paginas .pagination .pages #botaoTopoWrapper {
+        display: none !important;
+    }
+
     .receitasArtigos h2 a {
         font-size: 1.5rem;
     }
@@ -2655,7 +2676,7 @@ input {
         display: none;
     }
 
-    .anunciosPropagandasIpad {
+    #content .anunciosPropagandasIpad {
         display: none;
     }
 
