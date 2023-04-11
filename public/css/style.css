@@ -20,6 +20,10 @@
     --cinza-claro: #F2F2F2;
 }
 
+div#content .receitasArtigos .indexPostImagem {
+    width: 800px;
+}
+
 #tituloEbookGuiaExercicios {
     font-weight: 700;
     text-align: center;
@@ -47,13 +51,13 @@ body h2 {
     font-family: 'Chewy', cursive;
 }
 
-#blogApresentacao a {
+#blogApresentacao a, #blogApresentacaoTreino.blogApresentacaoAlimentacao a {
     color: var(--verde);
     text-decoration: none;
     font-weight: 700;
 }
 
-div#blogApresentacao a.btnSaibaMais {
+div#blogApresentacao a.btnSaibaMais, #blogApresentacaoTreino.blogApresentacaoAlimentacao a.btnSaibaMais {
     color: var(--branco);
 }
 
