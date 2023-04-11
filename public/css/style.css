@@ -47,6 +47,16 @@ body h2 {
     font-family: 'Chewy', cursive;
 }
 
+#blogApresentacao a {
+    color: var(--verde);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div#blogApresentacao a.btnSaibaMais {
+    color: var(--branco);
+}
+
 div.anunciosPropagandasIpad {
     display: flex;
     justify-content: center;
