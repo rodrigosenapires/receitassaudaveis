@@ -18,6 +18,7 @@
     --laranja: #FF914D;
     --branco: #FFF;
     --cinza-claro: #F2F2F2;
+    --fonte-principal: 'Chewy', cursive;
 }
 
 div#content .receitasArtigos .indexPostImagem {
@@ -2526,13 +2527,19 @@ input {
     #calorias form,
     #caloriasFullPage #formularioCalorias,
     #imcCel {
-        background-color: #FF914D;
-        padding: 20px;
-        box-shadow: 0px 0px 10px 0px #333;
-        color: #333;
-        font-size: 16px;
-        text-align: left;
-        background-image: url("../images/bg01.png");
+        display: none;
+    }
+
+    div#content article.receitasArtigos .indexPostImagem {
+        width: 98%;
+    }
+
+    .propagandaLaptopContainer .propagandaLaptop {
+        width: 330px;
+    }
+
+    #nav li.liCalculadora {
+        display: flex;
     }
 
     #caloriasFullPage #formularioCalorias select {
