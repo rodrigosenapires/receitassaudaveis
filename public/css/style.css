@@ -21,6 +21,10 @@
     --fonte-principal: 'Chewy', cursive;
 }
 
+.impactoAlimentacaoContainer img {
+    width: 970px;
+}
+
 .receitasArtigos h2 a {
     font-size: 3rem;
 }
