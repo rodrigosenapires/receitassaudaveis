@@ -1,8 +1,9 @@
 #categorias h2 {
-    margin-bottom: 3rem;
+    margin: 2rem 0 3rem 0;
     font-size: 3rem;
     text-align: center;
     font-weight: 700;
+    color: #FF914D;
 }
 
 #categorias h4 {
