@@ -1,5 +1,5 @@
 @media print {
-    #cabecalho, #sidebar, #video, .pagination, .stats, .info, #calorias, #receitasInfos, #receitasNutricional, #secaoRecomendados, #rodape {
+    .anunciosPropagandasIpad img, div.posicaoFixa, #formularioCalorias, #cabecalho, #sidebar, #video, .pagination, .stats, .info, section#calorias, #receitasInfos, #receitasNutricional, #secaoRecomendados, #rodape {
       display: none;
     }
 
