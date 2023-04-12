@@ -21,8 +21,12 @@
     --fonte-principal: 'Chewy', cursive;
 }
 
+.receitasArtigos h2 a {
+    font-size: 3rem;
+}
+
 div#content .receitasArtigos .indexPostImagem {
-    width: 800px;
+    width: 100%;
 }
 
 #tituloEbookGuiaExercicios {
@@ -163,19 +167,21 @@ div#logo2 {
     border-radius: 0.2em;
     text-align: center;
     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15), 0 0.025em 0.15em 0em rgba(0, 0, 0, 0.25);
-    height: 60px;
+    height: 136px;
 }
 
 .posicaoFixa aside #calorias {
     display: block;
 }
 
-#logo2 a {
+#logo a {
     text-decoration: none;
     color: #fff;
-    line-height: 20px;
-    font-size: 1.2rem;
+    line-height: 35px;
+    font-size: 2rem;
     font-weight: 700;
+    line-height: 35px;
+    font-family: var(--fonte-principal);
 }
 
 .box .propagandaMedPadrao a.propagandaMenu img {
@@ -1352,7 +1358,7 @@ article.receitasArtigos h2.receitastitulo {
 }
 
 #content .inner:first-child {
-    width: 800px;
+    width: 100vw;
 }
 
 #saibaMais {

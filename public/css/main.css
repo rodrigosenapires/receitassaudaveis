@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700");
 @import url(style.css);
 
+:root {
+    --verde: #228B22;
+    --laranja: #FF914D;
+    --branco: #FFF;
+    --cinza-claro: #F2F2F2;
+    --fonte-principal: 'Chewy', cursive;
+}
+
 html,
 body,
 div,
@@ -2444,6 +2452,7 @@ ol li {
 #sidebar h5,
 #sidebar h6 {
 	color: #fff;
+	font-family: var(--fonte-principal);
 }
 
 #sidebar header {
@@ -2453,9 +2462,10 @@ ol li {
 /* Content */
 
 #content.indexContainer {
-	padding: 1rem 5rem 2rem 5rem;
-	margin-left: 50vh;
-	box-shadow: none;	
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100vw;
 }
 
 #content {
@@ -2650,7 +2660,7 @@ ol li {
 	/* Content */
 
 	#content {		
-		margin: 1rem 50vh;
+		margin: 0;
 	}
 
 	#content>.inner {
