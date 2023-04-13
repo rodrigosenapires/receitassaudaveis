@@ -21,6 +21,13 @@
     --fonte-principal: 'Chewy', cursive;
 }
 
+.ativo {
+    border: 1px solid #1C661B;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    transition: 0.2s;
+}
+
 #sidebar.sidebarAgradecimentoEbook nav:after {
     display: none;
 }
