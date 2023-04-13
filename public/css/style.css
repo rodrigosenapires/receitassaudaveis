@@ -20,6 +20,9 @@
     --cinza-claro: #F2F2F2;
     --fonte-principal: 'Chewy', cursive;
 }
+.receitasArtigos.box.post.post-excerpt p {
+    padding: 0 .5rem 0 .5rem;
+}
 
 .ativo {
     border: 1px solid #1C661B;
@@ -2738,7 +2741,7 @@ input {
 
     div#content.indexContainer .inner {
         margin: 60px 0 0 2rem;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .propagandaMed {
@@ -3228,8 +3231,7 @@ input {
     }
 
     div#content.indexContainer {
-        margin: 0;
-        padding: 1em 16px 16px;
+        margin: 0;        
     }
 
     #arvore .arvoreLinksContainer .displayCel i {
