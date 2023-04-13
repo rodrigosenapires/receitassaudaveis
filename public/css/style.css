@@ -3229,6 +3229,7 @@ input {
 
     div#content.indexContainer {
         margin: 0;
+        padding: 1em 16px 16px;
     }
 
     #arvore .arvoreLinksContainer .displayCel i {
