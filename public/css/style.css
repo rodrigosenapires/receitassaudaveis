@@ -202,6 +202,11 @@ div#logo2 {
     font-family: var(--fonte-principal);
 }
 
+.box div.propagandaMedPadrao a.propagandaMenu img {
+    margin: 0;
+    width: 148px;
+}
+
 .box .propagandaMedPadrao a.propagandaMenu img {
     height: 270px;
     margin-left: 2rem;
@@ -2716,6 +2721,10 @@ input {
 
     div#content.indexContainer div#innerMateria.inner {
         margin: 0;
+    }
+   
+    #sidebar.sidebar2receitas {
+        width: 10.5rem;
     }
 
     #sidebar {
