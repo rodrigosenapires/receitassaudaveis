@@ -21,10 +21,6 @@
     --fonte-principal: 'Chewy', cursive;
 }
 
-#sidebar.sidebarAgradecimentoEbook section:before {
-    display: none;
-}
-
 .impactoAlimentacaoContainer img {
     width: 970px;
 }
