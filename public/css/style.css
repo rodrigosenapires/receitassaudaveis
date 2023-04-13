@@ -207,6 +207,11 @@ div#logo2 {
     width: 148px;
 }
 
+.box.box2receitas div.propagandaMedPadrao a.propagandaMenu img {
+    margin: 0;
+    width: 148px;
+}
+
 .box .propagandaMedPadrao a.propagandaMenu img {
     height: 270px;
     margin-left: 2rem;
@@ -224,6 +229,22 @@ div#logo2 {
 }
 
 /* Configuração dos audios das matérias */
+.play-button {
+    background-color: var(--laranja);
+    color: var(--branco);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.play-button:active {
+    background-color: var(--laranja);
+}
+
+
 .audioContaine {
     display: flex;
     flex-direction: column;
