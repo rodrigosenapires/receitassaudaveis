@@ -67,6 +67,7 @@ div#content .receitasArtigos .indexPostImagem {
 body,
 div#content {
     background-color: var(--cinza-claro);
+    margin: 0;
 }
 
 body h1,
