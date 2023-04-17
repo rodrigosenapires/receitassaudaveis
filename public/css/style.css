@@ -2702,6 +2702,7 @@ input {
 
     .receitasArtigos h2 a {
         font-size: 1.5rem;
+        padding: 0 .5rem 0 .5rem;
     }
 
     #content .receitasArtigos .indexPostImagem {
