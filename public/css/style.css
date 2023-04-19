@@ -2683,6 +2683,15 @@ input {
 
 /* Mobile */
 @media screen and (max-width: 999px) {
+
+    #sidebar.sidebarContainer.sidebarReceitas {
+        width: 12rem;
+    }
+
+    #sidebar.sidebarContainer.sidebarReceitas .propagandaMenu img {
+        width: 170px;
+    }
+
     #content article.receita header h1 {
         margin: 0;
     }
