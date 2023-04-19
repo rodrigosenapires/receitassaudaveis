@@ -348,8 +348,8 @@ button {
 }
 
 #materiaDescricao .img {
-    width: 800px;
-    height: 200px;
+    width: 100%;
+    height: 400px;
 }
 
 .propagandaIpadLap {
@@ -2682,7 +2682,15 @@ input {
 }
 
 /* Mobile */
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 999px) {    
+
+    #sidebar.sidebarContainer.sidebarReceitas #nav ul li.liCalculadora {
+        display: flex;
+    }
+
+    #sidebar.sidebarContainer.sidebarTreinos #nav ul li.liCalculadora {
+        display: flex;
+    }
 
     #sidebar.sidebarContainer.sidebarReceitas {
         width: 12rem;
@@ -2694,8 +2702,7 @@ input {
 
     #content article.receita header h1 {
         margin: 0;
-    }
-    
+    }    
 
     #blogApresentacaoTreino h1, #blogApresentacao h1 {
         font-size: 2rem;

@@ -27,7 +27,7 @@ h5.fraseAcao {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--verde);
+    border: 2px solid var(--laranja);
     margin-bottom: 2rem;
     border-radius: 16px;
     background-color: var(--laranja-claro);
@@ -131,4 +131,11 @@ iframe {
     text-align: center;
     font-weight: 700;
     margin: 1rem 0;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 999px) {
+    
+    
 }
